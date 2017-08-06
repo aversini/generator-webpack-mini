@@ -2,17 +2,10 @@
 
 ## Install dependencies
 
-If you use yarn:
-
 ```sh
 $ yarn
 ```
-
-Or if you use npm:
-
-```sh
-npm install
-```
+**NOTE**: While this README only refers to [Yarn](https://yarnpkg.com/en/), npm can be used if it is the only node package manager available.
 
 ## Update source code
 
