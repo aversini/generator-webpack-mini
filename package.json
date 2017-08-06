@@ -2,11 +2,14 @@
   "name": "generator-webpack-mini",
   "version": "0.0.0",
   "description": "A barebones webpack starter",
-  "homepage": "",
-  "author": {
-    "name": "Arno V",
-    "email": "versini@gmail.com",
-    "url": ""
+  "author": "Arno V",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aversini/generator-webpack-mini.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aversini/generator-webpack-mini/issues"
   },
   "files": [
     "generators"
@@ -44,7 +47,5 @@
       "jest": true,
       "node": true
     }
-  },
-  "repository": "aversini/generator-webpack-mini",
-  "license": "MIT"
+  }
 }
