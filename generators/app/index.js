@@ -64,7 +64,7 @@ module.exports = class extends Generator {
 
   writing() {
     this.fs.copyTpl(
-      this.templatePath('common', 'README.md'),
+      this.templatePath('README.md'),
       this.destinationPath('README.md'),
       {
         entry: this.props.react ? 'testbed.jsx' : 'testbed.js'
@@ -72,12 +72,12 @@ module.exports = class extends Generator {
     );
 
     this.fs.copy(
-      this.templatePath('common', '.babelrc'),
+      this.templatePath('.babelrc'),
       this.destinationPath('.babelrc')
     );
 
     this.fs.copyTpl(
-      this.templatePath('common', 'package.json'),
+      this.templatePath('package.json'),
       this.destinationPath('package.json'),
       {
         description: this.props.react ?
@@ -98,7 +98,7 @@ module.exports = class extends Generator {
     );
 
     this.fs.copyTpl(
-      this.templatePath('common', 'webpack.config.js'),
+      this.templatePath('webpack.config.js'),
       this.destinationPath('webpack.config.js'),
       {
         entry: this.props.react ? './src/testbed.jsx' : './src/testbed.js'
@@ -106,7 +106,7 @@ module.exports = class extends Generator {
     );
 
     this.fs.copyTpl(
-      this.templatePath('common', 'src', 'index.html'),
+      this.templatePath('src', 'index.html'),
       this.destinationPath('src', 'index.html'),
       {
         introduction: this.props.react ?
@@ -116,18 +116,18 @@ module.exports = class extends Generator {
     );
 
     this.fs.copy(
-      this.templatePath('common', 'src', 'testbed.css'),
+      this.templatePath('src', 'testbed.css'),
       this.destinationPath('src', 'testbed.css')
     );
 
     if (this.props.react) {
       this.fs.copy(
-        this.templatePath('testbed-react', 'src', 'testbed.jsx'),
+        this.templatePath('src', 'testbed.jsx'),
         this.destinationPath('src', 'testbed.jsx')
       );
     } else {
       this.fs.copy(
-        this.templatePath('testbed-js', 'src', 'testbed.js'),
+        this.templatePath('src', 'testbed.js'),
         this.destinationPath('src', 'testbed.js')
       );
     }
