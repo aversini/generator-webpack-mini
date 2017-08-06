@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Arno V",
+      "authorEmail": "versini@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}

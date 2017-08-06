@@ -1,0 +1,18 @@
+{
+  "name": "webpack-react-mini-testbed",
+  "description": "<%= description %>",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "clean": "rimraf build",
+    "serve": "webpack-dev-server --env=dev --open",
+    "build:dev": "webpack --env=dev --progress --profile --colors",
+    "build:prod": "webpack -p --env=prod --progress --profile --colors",
+    "inline": "inliner build/index.html > build/index-inline.html",
+    "build": "npm-run-all --serial clean build:prod inline",
+    "dev": "npm run serve",
+    "dist": "npm run build",
+    "prod": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
