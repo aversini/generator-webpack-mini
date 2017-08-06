@@ -1,3 +1,10 @@
 body.tb {
   margin: 10px;
 }
+
+.tb-footer {
+  color: #767676;
+  font-size: 90%;
+  position: absolute;
+  bottom: 10px;
+}
