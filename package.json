@@ -34,10 +34,11 @@
     "yosay": "^2.0.0"
   },
   "jest": {
+    "coverageDirectory": "coverage",
     "testEnvironment": "node"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "eslintConfig": {
     "extends": "xo-space",
