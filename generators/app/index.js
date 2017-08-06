@@ -3,43 +3,6 @@ const Generator = require('yeoman-generator');
 const chalk = require('chalk');
 const yosay = require('yosay');
 
-const devDependencies = {
-  react: {
-    'babel-core': '^6.25.0',
-    'babel-loader': '^7.1.1',
-    'babel-preset-es2015': '^6.24.1',
-    'babel-preset-react': '^6.24.1',
-    'clean-webpack-plugin': '^0.1.16',
-    'css-loader': '^0.28.4',
-    'extract-text-webpack-plugin': '^3.0.0-rc.2',
-    'html-webpack-plugin': '^2.29.0',
-    inliner: '^1.12.3',
-    'npm-run-all': '^4.0.2',
-    react: '^15.6.1',
-    'react-dom': '^15.6.1',
-    'resolve-url-loader': '^2.1.0',
-    'style-loader': '^0.18.2',
-    webpack: '^3.3.0',
-    'webpack-dev-server': '^2.6.1'
-  },
-  js: {
-    'babel-core': '^6.25.0',
-    'babel-loader': '^7.1.1',
-    'babel-preset-es2015': '^6.24.1',
-    'babel-preset-react': '^6.24.1',
-    'clean-webpack-plugin': '^0.1.16',
-    'css-loader': '^0.28.4',
-    'extract-text-webpack-plugin': '^3.0.0-rc.2',
-    'html-webpack-plugin': '^2.29.0',
-    inliner: '^1.12.3',
-    'npm-run-all': '^4.0.2',
-    'resolve-url-loader': '^2.1.0',
-    'style-loader': '^0.18.2',
-    webpack: '^3.3.0',
-    'webpack-dev-server': '^2.6.1'
-  }
-};
-
 module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
@@ -62,6 +25,40 @@ module.exports = class extends Generator {
     });
   }
 
+  configuring() {
+    const devDependencies = {
+      js: {
+        'babel-core': '^6.25.0',
+        'babel-loader': '^7.1.1',
+        'babel-preset-es2015': '^6.24.1',
+        'clean-webpack-plugin': '^0.1.16',
+        'css-loader': '^0.28.4',
+        'extract-text-webpack-plugin': '^3.0.0-rc.2',
+        'html-webpack-plugin': '^2.29.0',
+        inliner: '^1.12.3',
+        'npm-run-all': '^4.0.2',
+        'style-loader': '^0.18.2',
+        webpack: '^3.3.0',
+        'webpack-dev-server': '^2.6.1'
+      },
+      react: {
+        'babel-preset-react': '^6.24.1',
+        react: '^15.6.1',
+        'react-dom': '^15.6.1'
+      }
+    };
+
+    if (this.props.react) {
+      this.props.devDependencies = Object.assign(
+        {},
+        devDependencies.js,
+        devDependencies.react
+      );
+    } else {
+      this.props.devDependencies = devDependencies.js;
+    }
+  }
+
   writing() {
     this.fs.copyTpl(
       this.templatePath('README.md'),
@@ -72,7 +69,7 @@ module.exports = class extends Generator {
     );
 
     this.fs.copy(
-      this.templatePath('.babelrc'),
+      this.templatePath(this.props.react ? '.babelrc-react' : '.babelrc-js'),
       this.destinationPath('.babelrc')
     );
 
@@ -89,9 +86,7 @@ module.exports = class extends Generator {
     this.fs.extendJSON(
       this.destinationPath('package.json'),
       {
-        devDependencies: this.props.react ?
-          devDependencies.react :
-          devDependencies.js
+        devDependencies: this.props.devDependencies
       },
       null,
       2
@@ -137,6 +132,8 @@ module.exports = class extends Generator {
     this.log();
     this.log('Mini webpack project is ready!');
     this.log('Please run \'yarn\' or \'npm install\' to install dependencies,');
-    this.log('And check the README.md file for more information (build procedures, etc.)');
+    this.log(
+      'And check the README.md file for more information (build procedures, etc.)'
+    );
   }
 };
