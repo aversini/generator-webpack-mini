@@ -12,6 +12,7 @@ describe('generator-webpack-mini:app (React)', () => {
 
   it('creates files', () => {
     assert.file([
+      '.babelrc',
       'README.md',
       'package.json',
       'webpack.config.js',
@@ -31,6 +32,7 @@ describe('generator-webpack-mini:app (Non-React)', () => {
 
   it('creates files', () => {
     assert.file([
+      '.babelrc',
       'README.md',
       'package.json',
       'webpack.config.js',
