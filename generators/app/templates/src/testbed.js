@@ -9,5 +9,10 @@ import './testbed.css';
  */
 
 /*
-  And the rest of your JS code here.
+  The rest of your JS code here.
  */
+
+/*
+  And finally showing the page.
+ */
+document.body.classList.remove('tb-hidden');
