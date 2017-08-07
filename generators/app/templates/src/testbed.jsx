@@ -11,6 +11,10 @@ import './testbed.css';
  */
 
 class App extends Component {
+  componentDidMount() {
+    // App is ready, show the page
+    document.body.classList.remove('tb-hidden');
+  }
   render() {
     return (
       <div>
@@ -21,8 +25,3 @@ class App extends Component {
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));
-
-/*
-  And finally showing the page.
- */
-document.body.classList.remove('tb-hidden');
