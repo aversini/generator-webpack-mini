@@ -4,8 +4,17 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const webpack = require('webpack');
 
+const REGEX_STYLE_LOADER = /\.(css|scss)$/;
+
 module.exports = function (env) {
   const devtool = env === 'dev' ? 'eval-source-map' : 'source-map';
+  const rules = [
+    {
+      test: /\.(js|jsx)$/,
+      use: 'babel-loader',
+      exclude: /node_modules/
+    }
+  ];
   const plugins = [
     new CleanWebpackPlugin(['dist'], {
       verbose: true,
@@ -45,6 +54,40 @@ module.exports = function (env) {
         comments: false
       })
     );
+    rules.push({
+      test: REGEX_STYLE_LOADER,
+      use: ExtractTextPlugin.extract({
+        fallback: 'style-loader',
+        use: [
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+              localIdentName: '[local]',
+              importLoaders: 1,
+              minimize: true
+            }
+          }
+        ]
+      })
+    });
+  } else {
+    rules.push({
+      test: REGEX_STYLE_LOADER,
+      use: [
+        {
+          loader: 'style-loader'
+        },
+        {
+          loader: 'css-loader',
+          options: {
+            modules: true,
+            localIdentName: '[local]',
+            importLoaders: 1
+          }
+        }
+      ]
+    });
   }
 
   return {
@@ -56,29 +99,7 @@ module.exports = function (env) {
     devtool,
     plugins,
     module: {
-      rules: [
-        {
-          test: /\.(js|jsx)$/,
-          use: 'babel-loader',
-          exclude: /node_modules/
-        },
-        {
-          test: /\.(css|scss)$/,
-          use: [
-            {
-              loader: 'style-loader'
-            },
-            {
-              loader: 'css-loader',
-              options: {
-                modules: true,
-                localIdentName: '[local]',
-                importLoaders: 1
-              }
-            }
-          ]
-        }
-      ]
+      rules
     }
   };
 };
