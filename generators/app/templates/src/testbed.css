@@ -2,9 +2,12 @@ body.tb {
   margin: 10px;
 }
 
-.tb-footer {
+.tb-intro-item {
+  text-align: center;
+}
+
+.tb-reference {
   color: #767676;
   font-size: 90%;
-  position: absolute;
-  bottom: 10px;
+  text-align: center;
 }
