@@ -96,6 +96,10 @@ module.exports = function (env) {
       filename: 'js/[name].bundle.[hash].js',
       path: path.resolve(__dirname, 'build')
     },
+    devServer: {
+      // disable security check for local development
+      disableHostCheck: (env !== 'prod')
+    },
     devtool,
     plugins,
     module: {
