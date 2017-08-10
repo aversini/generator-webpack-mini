@@ -33,13 +33,13 @@ module.exports = class extends Generator {
         'babel-preset-es2015': '^6.24.1',
         'clean-webpack-plugin': '^0.1.16',
         'css-loader': '^0.28.4',
-        'extract-text-webpack-plugin': '^3.0.0-rc.2',
-        'html-webpack-plugin': '^2.29.0',
+        'extract-text-webpack-plugin': '^3.0.0',
+        'html-webpack-plugin': '^2.20.1',
         inliner: '^1.12.3',
         'npm-run-all': '^4.0.2',
         'style-loader': '^0.18.2',
-        webpack: '^3.3.0',
-        'webpack-dev-server': '^2.6.1'
+        webpack: '^3.5.2',
+        'webpack-dev-server': '^2.7.1'
       },
       react: {
         'babel-preset-react': '^6.24.1',
