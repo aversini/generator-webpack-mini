@@ -28,23 +28,23 @@ module.exports = class extends Generator {
   configuring() {
     const devDependencies = {
       js: {
-        'babel-core': '^6.25.0',
-        'babel-loader': '^7.1.1',
-        'babel-preset-es2015': '^6.24.1',
-        'clean-webpack-plugin': '^0.1.16',
-        'css-loader': '^0.28.4',
-        'extract-text-webpack-plugin': '^3.0.0',
-        'html-webpack-plugin': '^2.20.1',
-        inliner: '^1.12.3',
-        'npm-run-all': '^4.0.2',
-        'style-loader': '^0.18.2',
-        webpack: '^3.5.2',
-        'webpack-dev-server': '^2.7.1'
+        'babel-core': '^6.26.0',
+        'babel-loader': '^7.1.2',
+        'babel-preset-env': '^1.6.1',
+        'clean-webpack-plugin': '^0.1.17',
+        'css-loader': '^0.28.7',
+        'extract-text-webpack-plugin': '^3.0.2',
+        'html-webpack-plugin': '^2.30.1',
+        inliner: '^1.12.5',
+        'npm-run-all': '^4.1.2',
+        'style-loader': '^0.19.0',
+        webpack: '^3.8.1',
+        'webpack-dev-server': '^2.9.4'
       },
       react: {
         'babel-preset-react': '^6.24.1',
-        react: '^15.6.1',
-        'react-dom': '^15.6.1'
+        react: '^16.1.1',
+        'react-dom': '^16.1.1'
       }
     };
 
