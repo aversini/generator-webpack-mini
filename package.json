@@ -23,8 +23,8 @@
     "coveralls": "^2.13.1",
     "eslint": "^4.1.0",
     "eslint-config-xo-space": "^0.16.0",
-    "jest": "^20.0.4",
-    "jest-cli": "^20.0.0",
+    "jest": "^22.0.4",
+    "jest-cli": "^22.0.4",
     "yeoman-assert": "^3.0.0",
     "yeoman-test": "^1.6.0"
   },

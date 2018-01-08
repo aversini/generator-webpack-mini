@@ -2,15 +2,31 @@
 # yarn lockfile v1
 
 
+"@babel/code-frame@^7.0.0-beta.35":
+  version "7.0.0-beta.37"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/@babel/code-frame/-/code-frame-7.0.0-beta.37.tgz#2da1dd3b1b57bfdea777ddc378df7cd12fe40171"
+  dependencies:
+    chalk "^2.0.0"
+    esutils "^2.0.2"
+    js-tokens "^3.0.0"
+
+"@types/node@*":
+  version "9.3.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/@types/node/-/node-9.3.0.tgz#3a129cda7c4e5df2409702626892cb4b96546dd5"
+
 abab@^1.0.3:
   version "1.0.4"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/abab/-/abab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"
 
-acorn-globals@^3.1.0:
-  version "3.1.0"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/acorn-globals/-/acorn-globals-3.1.0.tgz#fd8270f71fbb4996b004fa880ee5d46573a731bf"
+abbrev@1:
+  version "1.1.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
+
+acorn-globals@^4.0.0:
+  version "4.1.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/acorn-globals/-/acorn-globals-4.1.0.tgz#ab716025dbe17c54d3ef81d32ece2b2d99fe2538"
   dependencies:
-    acorn "^4.0.4"
+    acorn "^5.0.0"
 
 acorn-jsx@^3.0.0:
   version "3.0.1"
@@ -22,9 +38,9 @@ acorn@^3.0.4:
   version "3.3.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/acorn/-/acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a"
 
-acorn@^4.0.4:
-  version "4.0.13"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/acorn/-/acorn-4.0.13.tgz#105495ae5361d697bd195c825192e1ad7f253787"
+acorn@^5.0.0, acorn@^5.1.2:
+  version "5.3.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/acorn/-/acorn-5.3.0.tgz#7446d39459c54fb49a80e6ee6478149b940ec822"
 
 acorn@^5.2.1:
   version "5.2.1"
@@ -34,7 +50,23 @@ ajv-keywords@^2.1.0:
   version "2.1.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/ajv-keywords/-/ajv-keywords-2.1.1.tgz#617997fc5f60576894c435f940d819e135b80762"
 
-ajv@^5.1.0, ajv@^5.2.3, ajv@^5.3.0:
+ajv@^4.9.1:
+  version "4.11.8"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/ajv/-/ajv-4.11.8.tgz#82ffb02b29e662ae53bdc20af15947706739c536"
+  dependencies:
+    co "^4.6.0"
+    json-stable-stringify "^1.0.1"
+
+ajv@^5.1.0:
+  version "5.5.2"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/ajv/-/ajv-5.5.2.tgz#73b5eeca3fab653e3d3f9422b341ad42205dc965"
+  dependencies:
+    co "^4.6.0"
+    fast-deep-equal "^1.0.0"
+    fast-json-stable-stringify "^2.0.0"
+    json-schema-traverse "^0.3.0"
+
+ajv@^5.2.3, ajv@^5.3.0:
   version "5.3.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/ajv/-/ajv-5.3.0.tgz#4414ff74a50879c208ee5fdc826e32c303549eda"
   dependencies:
@@ -55,7 +87,7 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
-ansi-escapes@^1.1.0, ansi-escapes@^1.4.0:
+ansi-escapes@^1.1.0:
   version "1.4.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/ansi-escapes/-/ansi-escapes-1.4.0.tgz#d3a8a83b319aa67793662b13e761c7911422306e"
 
@@ -63,7 +95,7 @@ ansi-escapes@^3.0.0:
   version "3.0.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/ansi-escapes/-/ansi-escapes-3.0.0.tgz#ec3e8b4e9f8064fc02c3ac9b65f1c275bda8ef92"
 
-ansi-regex@^2.0.0, ansi-regex@^2.1.1:
+ansi-regex@^2.0.0:
   version "2.1.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/ansi-regex/-/ansi-regex-2.1.1.tgz#c3b33ab5ee360d86e0e628f0468ae7ef27d654df"
 
@@ -75,7 +107,7 @@ ansi-styles@^2.2.1:
   version "2.2.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/ansi-styles/-/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
 
-ansi-styles@^3.0.0, ansi-styles@^3.1.0:
+ansi-styles@^3.0.0, ansi-styles@^3.1.0, ansi-styles@^3.2.0:
   version "3.2.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/ansi-styles/-/ansi-styles-3.2.0.tgz#c159b8d5be0f9e5a6f346dab94f16ce022161b88"
   dependencies:
@@ -93,6 +125,17 @@ append-transform@^0.4.0:
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/append-transform/-/append-transform-0.4.0.tgz#d76ebf8ca94d276e247a36bad44a4b74ab611991"
   dependencies:
     default-require-extensions "^1.0.0"
+
+aproba@^1.0.3:
+  version "1.2.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/aproba/-/aproba-1.2.0.tgz#6802e6264efd18c790a1b0d517f0f2627bf2c94a"
+
+are-we-there-yet@~1.1.2:
+  version "1.1.4"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/are-we-there-yet/-/are-we-there-yet-1.1.4.tgz#bb5dca382bb94f05e15194373d16fd3ba1ca110d"
+  dependencies:
+    delegates "^1.0.0"
+    readable-stream "^2.0.6"
 
 argparse@^1.0.7:
   version "1.0.9"
@@ -147,6 +190,10 @@ assert-plus@1.0.0, assert-plus@^1.0.0:
 assert-plus@^0.2.0:
   version "0.2.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/assert-plus/-/assert-plus-0.2.0.tgz#d74e1b87e7affc0db8aadb7021f3fe48101ab234"
+
+astral-regex@^1.0.0:
+  version "1.0.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/astral-regex/-/astral-regex-1.0.0.tgz#6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
 
 async@^1.4.0:
   version "1.5.2"
@@ -226,13 +273,12 @@ babel-helpers@^6.24.1:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-jest@^20.0.3:
-  version "20.0.3"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/babel-jest/-/babel-jest-20.0.3.tgz#e4a03b13dc10389e140fc645d09ffc4ced301671"
+babel-jest@^22.0.4:
+  version "22.0.4"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/babel-jest/-/babel-jest-22.0.4.tgz#533c46de37d7c9d7612f408c76314be9277e0c26"
   dependencies:
-    babel-core "^6.0.0"
-    babel-plugin-istanbul "^4.0.0"
-    babel-preset-jest "^20.0.3"
+    babel-plugin-istanbul "^4.1.5"
+    babel-preset-jest "^22.0.3"
 
 babel-messages@^6.23.0:
   version "6.23.0"
@@ -240,7 +286,7 @@ babel-messages@^6.23.0:
   dependencies:
     babel-runtime "^6.22.0"
 
-babel-plugin-istanbul@^4.0.0:
+babel-plugin-istanbul@^4.1.5:
   version "4.1.5"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/babel-plugin-istanbul/-/babel-plugin-istanbul-4.1.5.tgz#6760cdd977f411d3e175bb064f2bc327d99b2b6e"
   dependencies:
@@ -248,15 +294,20 @@ babel-plugin-istanbul@^4.0.0:
     istanbul-lib-instrument "^1.7.5"
     test-exclude "^4.1.1"
 
-babel-plugin-jest-hoist@^20.0.3:
-  version "20.0.3"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-20.0.3.tgz#afedc853bd3f8dc3548ea671fbe69d03cc2c1767"
+babel-plugin-jest-hoist@^22.0.3:
+  version "22.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-22.0.3.tgz#62cde5fe962fd41ae89c119f481ca5cd7dd48bb4"
 
-babel-preset-jest@^20.0.3:
-  version "20.0.3"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/babel-preset-jest/-/babel-preset-jest-20.0.3.tgz#cbacaadecb5d689ca1e1de1360ebfc66862c178a"
+babel-plugin-syntax-object-rest-spread@^6.13.0:
+  version "6.13.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/babel-plugin-syntax-object-rest-spread/-/babel-plugin-syntax-object-rest-spread-6.13.0.tgz#fd6536f2bce13836ffa3a5458c4903a597bb3bf5"
+
+babel-preset-jest@^22.0.3:
+  version "22.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/babel-preset-jest/-/babel-preset-jest-22.0.3.tgz#e2bb6f6b4a509d3ea0931f013db78c5a84856693"
   dependencies:
-    babel-plugin-jest-hoist "^20.0.3"
+    babel-plugin-jest-hoist "^22.0.3"
+    babel-plugin-syntax-object-rest-spread "^6.13.0"
 
 babel-register@^6.26.0:
   version "6.26.0"
@@ -328,6 +379,16 @@ bcrypt-pbkdf@^1.0.0:
   version "2.0.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/binaryextensions/-/binaryextensions-2.0.0.tgz#e597d1a7a6a3558a2d1c7241a16c99965e6aa40f"
 
+bindings@^1.2.1:
+  version "1.3.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/bindings/-/bindings-1.3.0.tgz#b346f6ecf6a95f5a815c5839fc7cdb22502f1ed7"
+
+block-stream@*:
+  version "0.0.9"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/block-stream/-/block-stream-0.0.9.tgz#13ebfe778a03205cfe03751481ebb4b3300c126a"
+  dependencies:
+    inherits "~2.0.0"
+
 boom@2.x.x:
   version "2.10.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/boom/-/boom-2.10.1.tgz#39c8918ceff5799f83f9492a848f625add0c766f"
@@ -361,17 +422,15 @@ braces@^1.8.2:
     preserve "^0.2.0"
     repeat-element "^1.1.2"
 
+browser-process-hrtime@^0.1.2:
+  version "0.1.2"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/browser-process-hrtime/-/browser-process-hrtime-0.1.2.tgz#425d68a58d3447f02a04aa894187fce8af8b7b8e"
+
 browser-resolve@^1.11.2:
   version "1.11.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/browser-resolve/-/browser-resolve-1.11.2.tgz#8ff09b0a2c421718a1051c260b32e48f442938ce"
   dependencies:
     resolve "1.1.7"
-
-bser@1.0.2:
-  version "1.0.2"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/bser/-/bser-1.0.2.tgz#381116970b2a6deea5646dd15dd7278444b56169"
-  dependencies:
-    node-int64 "^0.4.0"
 
 bser@^2.0.0:
   version "2.0.0"
@@ -401,9 +460,9 @@ camelcase@^1.0.2:
   version "1.2.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/camelcase/-/camelcase-1.2.1.tgz#9bb5304d2e0b56698b2c758b08a3eaa9daa58a39"
 
-camelcase@^3.0.0:
-  version "3.0.0"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/camelcase/-/camelcase-3.0.0.tgz#32fc4b9fcdaf845fcdf7e73bb97cac2261f0ab0a"
+camelcase@^4.1.0:
+  version "4.1.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
 
 capture-stack-trace@^1.0.0:
   version "1.0.0"
@@ -443,8 +502,8 @@ chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0:
     supports-color "^4.0.0"
 
 ci-info@^1.0.0:
-  version "1.1.1"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/ci-info/-/ci-info-1.1.1.tgz#47b44df118c48d2597b56d342e7e25791060171a"
+  version "1.1.2"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/ci-info/-/ci-info-1.1.2.tgz#03561259db48d0474c8bdc90f5b47b068b6bbfb4"
 
 circular-json@^0.3.1:
   version "0.3.3"
@@ -574,17 +633,21 @@ concat-stream@^1.4.7, concat-stream@^1.6.0:
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
 
+console-control-strings@^1.0.0, console-control-strings@~1.1.0:
+  version "1.1.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
+
 content-type-parser@^1.0.1:
   version "1.0.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/content-type-parser/-/content-type-parser-1.0.2.tgz#caabe80623e63638b2502fd4c7f12ff4ce2352e7"
 
 convert-source-map@^1.4.0, convert-source-map@^1.5.0:
-  version "1.5.0"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/convert-source-map/-/convert-source-map-1.5.0.tgz#9acd70851c6d5dfdd93d9282e5edf94a03ff46b5"
+  version "1.5.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/convert-source-map/-/convert-source-map-1.5.1.tgz#b8278097b9bc229365de5c62cf5fcaed8b5599e5"
 
 core-js@^2.4.0, core-js@^2.5.0:
-  version "2.5.1"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/core-js/-/core-js-2.5.1.tgz#ae6874dc66937789b80754ff5428df66819ca50b"
+  version "2.5.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/core-js/-/core-js-2.5.3.tgz#8acc38345824f16d8365b7c9b4259168e8ed603e"
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -650,7 +713,7 @@ dateformat@^2.0.0:
   version "2.2.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/dateformat/-/dateformat-2.2.0.tgz#4065e2013cf9fb916ddfd82efb506ad4c6769062"
 
-debug@^2.0.0, debug@^2.1.0, debug@^2.6.8:
+debug@^2.0.0, debug@^2.1.0, debug@^2.2.0, debug@^2.6.8:
   version "2.6.9"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   dependencies:
@@ -666,7 +729,7 @@ decamelize@^1.0.0, decamelize@^1.1.1:
   version "1.2.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
 
-deep-extend@^0.4.0:
+deep-extend@^0.4.0, deep-extend@~0.4.0:
   version "0.4.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/deep-extend/-/deep-extend-0.4.2.tgz#48b699c27e334bf89f10892be432f6e4c7d34a7f"
 
@@ -679,6 +742,13 @@ default-require-extensions@^1.0.0:
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/default-require-extensions/-/default-require-extensions-1.0.0.tgz#f37ea15d3e13ffd9b437d33e1a75b5fb97874cb8"
   dependencies:
     strip-bom "^2.0.0"
+
+define-properties@^1.1.2:
+  version "1.1.2"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/define-properties/-/define-properties-1.1.2.tgz#83a73f2fea569898fb737193c8f873caf6d45c94"
+  dependencies:
+    foreach "^2.0.5"
+    object-keys "^1.0.8"
 
 del@^2.0.2:
   version "2.2.2"
@@ -696,6 +766,10 @@ delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
 
+delegates@^1.0.0:
+  version "1.0.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
+
 detect-conflict@^1.0.0:
   version "1.0.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/detect-conflict/-/detect-conflict-1.0.1.tgz#088657a66a961c05019db7c4230883b1c6b4176e"
@@ -705,6 +779,14 @@ detect-indent@^4.0.0:
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/detect-indent/-/detect-indent-4.0.0.tgz#f76d064352cdf43a1cb6ce619c4ee3a9475de208"
   dependencies:
     repeating "^2.0.0"
+
+detect-libc@^1.0.2:
+  version "1.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
+
+detect-newline@^2.1.0:
+  version "2.1.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/detect-newline/-/detect-newline-2.1.0.tgz#f41f1c10be4b00e87b5f13da680759f2c5bfd3e2"
 
 diff@^2.1.2:
   version "2.2.3"
@@ -720,6 +802,10 @@ doctrine@^2.0.0:
   dependencies:
     esutils "^2.0.2"
     isarray "^1.0.0"
+
+domexception@^1.0.0:
+  version "1.0.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/domexception/-/domexception-1.0.0.tgz#81fe5df81b3f057052cde3a9fa9bf536a85b9ab0"
 
 duplexer3@^0.1.4:
   version "0.1.4"
@@ -739,12 +825,6 @@ ejs@^2.3.1:
   version "2.5.7"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/ejs/-/ejs-2.5.7.tgz#cc872c168880ae3c7189762fd5ffc00896c9518a"
 
-errno@^0.1.4:
-  version "0.1.4"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/errno/-/errno-0.1.4.tgz#b896e23a9e5e8ba33871fc996abd3635fc9a1c7d"
-  dependencies:
-    prr "~0.0.0"
-
 error-ex@^1.2.0:
   version "1.3.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/error-ex/-/error-ex-1.3.1.tgz#f855a86ce61adc4e8621c3cda21e7a7612c3a8dc"
@@ -758,11 +838,29 @@ error@^7.0.2:
     string-template "~0.2.1"
     xtend "~4.0.0"
 
+es-abstract@^1.5.1:
+  version "1.10.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/es-abstract/-/es-abstract-1.10.0.tgz#1ecb36c197842a00d8ee4c2dfd8646bb97d60864"
+  dependencies:
+    es-to-primitive "^1.1.1"
+    function-bind "^1.1.1"
+    has "^1.0.1"
+    is-callable "^1.1.3"
+    is-regex "^1.0.4"
+
+es-to-primitive@^1.1.1:
+  version "1.1.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/es-to-primitive/-/es-to-primitive-1.1.1.tgz#45355248a88979034b6792e19bb81f2b7975dd0d"
+  dependencies:
+    is-callable "^1.1.1"
+    is-date-object "^1.0.1"
+    is-symbol "^1.0.1"
+
 escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-escodegen@^1.6.1:
+escodegen@^1.9.0:
   version "1.9.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/escodegen/-/escodegen-1.9.0.tgz#9811a2f265dc1cd3894420ee3717064b632b8852"
   dependencies:
@@ -878,6 +976,18 @@ exec-sh@^0.2.0:
   dependencies:
     merge "^1.1.3"
 
+execa@^0.7.0:
+  version "0.7.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/execa/-/execa-0.7.0.tgz#944becd34cc41ee32a63a9faf27ad5a65fc59777"
+  dependencies:
+    cross-spawn "^5.0.1"
+    get-stream "^3.0.0"
+    is-stream "^1.1.0"
+    npm-run-path "^2.0.0"
+    p-finally "^1.0.0"
+    signal-exit "^3.0.0"
+    strip-eof "^1.0.0"
+
 exit-hook@^1.0.0:
   version "1.1.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/exit-hook/-/exit-hook-1.1.1.tgz#f05ca233b48c05d54fff07765df8507e95c02ff8"
@@ -893,6 +1003,17 @@ expand-range@^1.8.1:
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/expand-range/-/expand-range-1.8.2.tgz#a299effd335fe2721ebae8e257ec79644fc85337"
   dependencies:
     fill-range "^2.1.0"
+
+expect@^22.0.3:
+  version "22.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/expect/-/expect-22.0.3.tgz#bb486de7d41bf3eb60d3b16dfd1c158a4d91ddfa"
+  dependencies:
+    ansi-styles "^3.2.0"
+    jest-diff "^22.0.3"
+    jest-get-type "^22.0.3"
+    jest-matcher-utils "^22.0.3"
+    jest-message-util "^22.0.3"
+    jest-regex-util "^22.0.3"
 
 extend@^3.0.0, extend@~3.0.0, extend@~3.0.1:
   version "3.0.1"
@@ -920,9 +1041,13 @@ extglob@^0.3.1:
   dependencies:
     is-extglob "^1.0.0"
 
-extsprintf@1.3.0, extsprintf@^1.2.0:
+extsprintf@1.3.0:
   version "1.3.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/extsprintf/-/extsprintf-1.3.0.tgz#96918440e3041a7a414f8c52e3c574eb3c3e1e05"
+
+extsprintf@^1.2.0:
+  version "1.4.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
 
 fast-deep-equal@^1.0.0:
   version "1.0.0"
@@ -935,12 +1060,6 @@ fast-json-stable-stringify@^2.0.0:
 fast-levenshtein@~2.0.4:
   version "2.0.6"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
-
-fb-watchman@^1.8.0:
-  version "1.9.2"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/fb-watchman/-/fb-watchman-1.9.2.tgz#a24cf47827f82d38fb59a69ad70b76e3b6ae7383"
-  dependencies:
-    bser "1.0.2"
 
 fb-watchman@^2.0.0:
   version "2.0.0"
@@ -1027,6 +1146,10 @@ for-own@^0.1.4:
   dependencies:
     for-in "^1.0.1"
 
+foreach@^2.0.5:
+  version "2.0.5"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/foreach/-/foreach-2.0.5.tgz#0bee005018aeb260d0a3af3ae658dd0136ec1b99"
+
 forever-agent@~0.6.1:
   version "0.6.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/forever-agent/-/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
@@ -1057,9 +1180,50 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
 
+fsevents@^1.1.1:
+  version "1.1.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/fsevents/-/fsevents-1.1.3.tgz#11f82318f5fe7bb2cd22965a108e9306208216d8"
+  dependencies:
+    nan "^2.3.0"
+    node-pre-gyp "^0.6.39"
+
+fstream-ignore@^1.0.5:
+  version "1.0.5"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/fstream-ignore/-/fstream-ignore-1.0.5.tgz#9c31dae34767018fe1d249b24dada67d092da105"
+  dependencies:
+    fstream "^1.0.0"
+    inherits "2"
+    minimatch "^3.0.0"
+
+fstream@^1.0.0, fstream@^1.0.10, fstream@^1.0.2:
+  version "1.0.11"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/fstream/-/fstream-1.0.11.tgz#5c1fb1f117477114f0632a0eb4b71b3cb0fd3171"
+  dependencies:
+    graceful-fs "^4.1.2"
+    inherits "~2.0.0"
+    mkdirp ">=0.5 0"
+    rimraf "2"
+
+function-bind@^1.0.2, function-bind@^1.1.1:
+  version "1.1.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
+
 functional-red-black-tree@^1.0.1:
   version "1.0.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
+
+gauge@~2.7.3:
+  version "2.7.4"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/gauge/-/gauge-2.7.4.tgz#2c03405c7538c39d7eb37b317022e325fb018bf7"
+  dependencies:
+    aproba "^1.0.3"
+    console-control-strings "^1.0.0"
+    has-unicode "^2.0.0"
+    object-assign "^4.1.0"
+    signal-exit "^3.0.0"
+    string-width "^1.0.1"
+    strip-ansi "^3.0.1"
+    wide-align "^1.1.0"
 
 generate-function@^2.0.0:
   version "2.0.0"
@@ -1212,6 +1376,10 @@ handlebars@^4.0.3:
   optionalDependencies:
     uglify-js "^2.6"
 
+har-schema@^1.0.5:
+  version "1.0.5"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/har-schema/-/har-schema-1.0.5.tgz#d263135f43307c02c602afc8fe95970c0151369e"
+
 har-schema@^2.0.0:
   version "2.0.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/har-schema/-/har-schema-2.0.0.tgz#a94c2224ebcac04782a0d9035521f24735b7ec92"
@@ -1224,6 +1392,13 @@ har-validator@~2.0.6:
     commander "^2.9.0"
     is-my-json-valid "^2.12.4"
     pinkie-promise "^2.0.0"
+
+har-validator@~4.2.1:
+  version "4.2.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/har-validator/-/har-validator-4.2.1.tgz#33481d0f1bbff600dd203d75812a6a5fba002e2a"
+  dependencies:
+    ajv "^4.9.1"
+    har-schema "^1.0.5"
 
 har-validator@~5.0.3:
   version "5.0.3"
@@ -1246,7 +1421,17 @@ has-flag@^2.0.0:
   version "2.0.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/has-flag/-/has-flag-2.0.0.tgz#e8207af1cc7b30d446cc70b734b5e8be18f88d51"
 
-hawk@~3.1.3:
+has-unicode@^2.0.0:
+  version "2.0.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/has-unicode/-/has-unicode-2.0.1.tgz#e0e6fe6a28cf51138855e086d1691e771de2a8b9"
+
+has@^1.0.1:
+  version "1.0.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/has/-/has-1.0.1.tgz#8461733f538b0837c9361e39a9ab9e9704dc2f28"
+  dependencies:
+    function-bind "^1.0.2"
+
+hawk@3.1.3, hawk@~3.1.3:
   version "3.1.3"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/hawk/-/hawk-3.1.3.tgz#078444bd7c1640b0fe540d2c9b73d59678e8e1c4"
   dependencies:
@@ -1324,9 +1509,13 @@ inflight@^1.0.4:
     once "^1.3.0"
     wrappy "1"
 
-inherits@2, inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.3:
+inherits@2, inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.0, inherits@~2.0.3:
   version "2.0.3"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
+
+ini@~1.3.0:
+  version "1.3.5"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
 
 inquirer@^1.0.2:
   version "1.2.3"
@@ -1394,11 +1583,19 @@ is-builtin-module@^1.0.0:
   dependencies:
     builtin-modules "^1.0.0"
 
+is-callable@^1.1.1, is-callable@^1.1.3:
+  version "1.1.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/is-callable/-/is-callable-1.1.3.tgz#86eb75392805ddc33af71c92a0eedf74ee7604b2"
+
 is-ci@^1.0.10:
-  version "1.0.10"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/is-ci/-/is-ci-1.0.10.tgz#f739336b2632365061a9d48270cd56ae3369318e"
+  version "1.1.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/is-ci/-/is-ci-1.1.0.tgz#247e4162e7860cebbdaf30b774d6b0ac7dcfe7a5"
   dependencies:
     ci-info "^1.0.0"
+
+is-date-object@^1.0.1:
+  version "1.0.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/is-date-object/-/is-date-object-1.0.1.tgz#9aa20eb6aeebbff77fbd33e74ca01b33581d3a16"
 
 is-dotfile@^1.0.0:
   version "1.0.3"
@@ -1501,6 +1698,12 @@ is-redirect@^1.0.0:
   version "1.0.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/is-redirect/-/is-redirect-1.0.0.tgz#1d03dded53bd8db0f30c26e4f95d36fc7c87dc24"
 
+is-regex@^1.0.4:
+  version "1.0.4"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/is-regex/-/is-regex-1.0.4.tgz#5517489b547091b0930e095654ced25ee97e9491"
+  dependencies:
+    has "^1.0.1"
+
 is-resolvable@^1.0.0:
   version "1.0.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/is-resolvable/-/is-resolvable-1.0.0.tgz#8df57c61ea2e3c501408d100fb013cf8d6e0cc62"
@@ -1517,9 +1720,13 @@ is-scoped@^1.0.0:
   dependencies:
     scoped-regex "^1.0.0"
 
-is-stream@^1.0.0:
+is-stream@^1.0.0, is-stream@^1.1.0:
   version "1.1.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
+
+is-symbol@^1.0.1:
+  version "1.0.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/is-symbol/-/is-symbol-1.0.1.tgz#3cc59f00025194b6ab2e38dbae6689256b660572"
 
 is-typedarray@~1.0.0:
   version "1.0.0"
@@ -1551,7 +1758,7 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
-istanbul-api@^1.1.1:
+istanbul-api@^1.1.14:
   version "1.2.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/istanbul-api/-/istanbul-api-1.2.1.tgz#0c60a0515eb11c7d65c6b50bba2c6e999acd8620"
   dependencies:
@@ -1567,7 +1774,7 @@ istanbul-api@^1.1.1:
     mkdirp "^0.5.1"
     once "^1.4.0"
 
-istanbul-lib-coverage@^1.0.1, istanbul-lib-coverage@^1.1.1:
+istanbul-lib-coverage@^1.1.1:
   version "1.1.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/istanbul-lib-coverage/-/istanbul-lib-coverage-1.1.1.tgz#73bfb998885299415c93d38a3e9adf784a77a9da"
 
@@ -1577,7 +1784,7 @@ istanbul-lib-hook@^1.1.0:
   dependencies:
     append-transform "^0.4.0"
 
-istanbul-lib-instrument@^1.4.2, istanbul-lib-instrument@^1.7.5, istanbul-lib-instrument@^1.9.1:
+istanbul-lib-instrument@^1.7.5, istanbul-lib-instrument@^1.8.0, istanbul-lib-instrument@^1.9.1:
   version "1.9.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/istanbul-lib-instrument/-/istanbul-lib-instrument-1.9.1.tgz#250b30b3531e5d3251299fdd64b0b2c9db6b558e"
   dependencies:
@@ -1598,7 +1805,7 @@ istanbul-lib-report@^1.1.2:
     path-parse "^1.0.5"
     supports-color "^3.1.2"
 
-istanbul-lib-source-maps@^1.1.0, istanbul-lib-source-maps@^1.2.2:
+istanbul-lib-source-maps@^1.2.1, istanbul-lib-source-maps@^1.2.2:
   version "1.2.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/istanbul-lib-source-maps/-/istanbul-lib-source-maps-1.2.2.tgz#750578602435f28a0c04ee6d7d9e0f2960e62c1c"
   dependencies:
@@ -1622,216 +1829,251 @@ istextorbinary@^2.1.0:
     editions "^1.1.1"
     textextensions "1 || 2"
 
-jest-changed-files@^20.0.3:
-  version "20.0.3"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-changed-files/-/jest-changed-files-20.0.3.tgz#9394d5cc65c438406149bef1bf4d52b68e03e3f8"
-
-jest-cli@^20.0.0, jest-cli@^20.0.4:
-  version "20.0.4"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-cli/-/jest-cli-20.0.4.tgz#e532b19d88ae5bc6c417e8b0593a6fe954b1dc93"
+jest-changed-files@^22.0.3:
+  version "22.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-changed-files/-/jest-changed-files-22.0.3.tgz#3771315acfa24a0ed7e6c545de620db6f1b2d164"
   dependencies:
-    ansi-escapes "^1.4.0"
-    callsites "^2.0.0"
-    chalk "^1.1.3"
+    throat "^4.0.0"
+
+jest-cli@^22.0.4:
+  version "22.0.4"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-cli/-/jest-cli-22.0.4.tgz#0052abaad45c57861c05da8ab5d27bad13ad224d"
+  dependencies:
+    ansi-escapes "^3.0.0"
+    chalk "^2.0.1"
+    glob "^7.1.2"
     graceful-fs "^4.1.11"
     is-ci "^1.0.10"
-    istanbul-api "^1.1.1"
-    istanbul-lib-coverage "^1.0.1"
-    istanbul-lib-instrument "^1.4.2"
-    istanbul-lib-source-maps "^1.1.0"
-    jest-changed-files "^20.0.3"
-    jest-config "^20.0.4"
-    jest-docblock "^20.0.3"
-    jest-environment-jsdom "^20.0.3"
-    jest-haste-map "^20.0.4"
-    jest-jasmine2 "^20.0.4"
-    jest-message-util "^20.0.3"
-    jest-regex-util "^20.0.3"
-    jest-resolve-dependencies "^20.0.3"
-    jest-runtime "^20.0.4"
-    jest-snapshot "^20.0.3"
-    jest-util "^20.0.3"
+    istanbul-api "^1.1.14"
+    istanbul-lib-coverage "^1.1.1"
+    istanbul-lib-instrument "^1.8.0"
+    istanbul-lib-source-maps "^1.2.1"
+    jest-changed-files "^22.0.3"
+    jest-config "^22.0.4"
+    jest-environment-jsdom "^22.0.4"
+    jest-get-type "^22.0.3"
+    jest-haste-map "^22.0.3"
+    jest-message-util "^22.0.3"
+    jest-regex-util "^22.0.3"
+    jest-resolve-dependencies "^22.0.3"
+    jest-runner "^22.0.4"
+    jest-runtime "^22.0.4"
+    jest-snapshot "^22.0.3"
+    jest-util "^22.0.4"
+    jest-worker "^22.0.3"
     micromatch "^2.3.11"
-    node-notifier "^5.0.2"
-    pify "^2.3.0"
+    node-notifier "^5.1.2"
+    realpath-native "^1.0.0"
+    rimraf "^2.5.4"
     slash "^1.0.0"
-    string-length "^1.0.1"
-    throat "^3.0.0"
+    string-length "^2.0.0"
+    strip-ansi "^4.0.0"
     which "^1.2.12"
-    worker-farm "^1.3.1"
-    yargs "^7.0.2"
+    yargs "^10.0.3"
 
-jest-config@^20.0.4:
-  version "20.0.4"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-config/-/jest-config-20.0.4.tgz#e37930ab2217c913605eff13e7bd763ec48faeea"
+jest-config@^22.0.4:
+  version "22.0.4"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-config/-/jest-config-22.0.4.tgz#9c2a46c0907b1a1af54d9cdbf18e99b447034e11"
   dependencies:
-    chalk "^1.1.3"
+    chalk "^2.0.1"
     glob "^7.1.1"
-    jest-environment-jsdom "^20.0.3"
-    jest-environment-node "^20.0.3"
-    jest-jasmine2 "^20.0.4"
-    jest-matcher-utils "^20.0.3"
-    jest-regex-util "^20.0.3"
-    jest-resolve "^20.0.4"
-    jest-validate "^20.0.3"
-    pretty-format "^20.0.3"
+    jest-environment-jsdom "^22.0.4"
+    jest-environment-node "^22.0.4"
+    jest-get-type "^22.0.3"
+    jest-jasmine2 "^22.0.4"
+    jest-regex-util "^22.0.3"
+    jest-resolve "^22.0.4"
+    jest-util "^22.0.4"
+    jest-validate "^22.0.3"
+    pretty-format "^22.0.3"
 
-jest-diff@^20.0.3:
-  version "20.0.3"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-diff/-/jest-diff-20.0.3.tgz#81f288fd9e675f0fb23c75f1c2b19445fe586617"
+jest-diff@^22.0.3:
+  version "22.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-diff/-/jest-diff-22.0.3.tgz#ffed5aba6beaf63bb77819ba44dd520168986321"
   dependencies:
-    chalk "^1.1.3"
+    chalk "^2.0.1"
     diff "^3.2.0"
-    jest-matcher-utils "^20.0.3"
-    pretty-format "^20.0.3"
+    jest-get-type "^22.0.3"
+    pretty-format "^22.0.3"
 
-jest-docblock@^20.0.3:
-  version "20.0.3"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-docblock/-/jest-docblock-20.0.3.tgz#17bea984342cc33d83c50fbe1545ea0efaa44712"
-
-jest-environment-jsdom@^20.0.3:
-  version "20.0.3"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-environment-jsdom/-/jest-environment-jsdom-20.0.3.tgz#048a8ac12ee225f7190417713834bb999787de99"
+jest-docblock@^22.0.3:
+  version "22.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-docblock/-/jest-docblock-22.0.3.tgz#c33aa22682b9fc68a5373f5f82994428a2ded601"
   dependencies:
-    jest-mock "^20.0.3"
-    jest-util "^20.0.3"
-    jsdom "^9.12.0"
+    detect-newline "^2.1.0"
 
-jest-environment-node@^20.0.3:
-  version "20.0.3"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-environment-node/-/jest-environment-node-20.0.3.tgz#d488bc4612af2c246e986e8ae7671a099163d403"
+jest-environment-jsdom@^22.0.4:
+  version "22.0.4"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-environment-jsdom/-/jest-environment-jsdom-22.0.4.tgz#5723d4e724775ed38948de792e62f2d6a7f452df"
   dependencies:
-    jest-mock "^20.0.3"
-    jest-util "^20.0.3"
+    jest-mock "^22.0.3"
+    jest-util "^22.0.4"
+    jsdom "^11.5.1"
 
-jest-haste-map@^20.0.4:
-  version "20.0.5"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-haste-map/-/jest-haste-map-20.0.5.tgz#abad74efb1a005974a7b6517e11010709cab9112"
+jest-environment-node@^22.0.4:
+  version "22.0.4"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-environment-node/-/jest-environment-node-22.0.4.tgz#068671f85a545f96a5469be3a3dd228fca79c709"
+  dependencies:
+    jest-mock "^22.0.3"
+    jest-util "^22.0.4"
+
+jest-get-type@^22.0.3:
+  version "22.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-get-type/-/jest-get-type-22.0.3.tgz#fa894b677c0fcd55eff3fd8ee28c7be942e32d36"
+
+jest-haste-map@^22.0.3:
+  version "22.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-haste-map/-/jest-haste-map-22.0.3.tgz#c9ecb5c871c5465d4bde4139e527fa0dc784aa2d"
   dependencies:
     fb-watchman "^2.0.0"
     graceful-fs "^4.1.11"
-    jest-docblock "^20.0.3"
+    jest-docblock "^22.0.3"
+    jest-worker "^22.0.3"
     micromatch "^2.3.11"
-    sane "~1.6.0"
-    worker-farm "^1.3.1"
+    sane "^2.0.0"
 
-jest-jasmine2@^20.0.4:
-  version "20.0.4"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-jasmine2/-/jest-jasmine2-20.0.4.tgz#fcc5b1411780d911d042902ef1859e852e60d5e1"
+jest-jasmine2@^22.0.4:
+  version "22.0.4"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-jasmine2/-/jest-jasmine2-22.0.4.tgz#f7c0965116efe831ec674dc954b0134639b3dcee"
   dependencies:
-    chalk "^1.1.3"
+    callsites "^2.0.0"
+    chalk "^2.0.1"
+    expect "^22.0.3"
     graceful-fs "^4.1.11"
-    jest-diff "^20.0.3"
-    jest-matcher-utils "^20.0.3"
-    jest-matchers "^20.0.3"
-    jest-message-util "^20.0.3"
-    jest-snapshot "^20.0.3"
-    once "^1.4.0"
-    p-map "^1.1.1"
+    jest-diff "^22.0.3"
+    jest-matcher-utils "^22.0.3"
+    jest-message-util "^22.0.3"
+    jest-snapshot "^22.0.3"
+    source-map-support "^0.5.0"
 
-jest-matcher-utils@^20.0.3:
-  version "20.0.3"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-matcher-utils/-/jest-matcher-utils-20.0.3.tgz#b3a6b8e37ca577803b0832a98b164f44b7815612"
+jest-leak-detector@^22.0.3:
+  version "22.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-leak-detector/-/jest-leak-detector-22.0.3.tgz#b64904f0e8954a11edb79b0809ff4717fa762d99"
   dependencies:
-    chalk "^1.1.3"
-    pretty-format "^20.0.3"
+    pretty-format "^22.0.3"
+  optionalDependencies:
+    weak "^1.0.1"
 
-jest-matchers@^20.0.3:
-  version "20.0.3"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-matchers/-/jest-matchers-20.0.3.tgz#ca69db1c32db5a6f707fa5e0401abb55700dfd60"
+jest-matcher-utils@^22.0.3:
+  version "22.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-matcher-utils/-/jest-matcher-utils-22.0.3.tgz#2ec15ca1af7dcabf4daddc894ccce224b948674e"
   dependencies:
-    jest-diff "^20.0.3"
-    jest-matcher-utils "^20.0.3"
-    jest-message-util "^20.0.3"
-    jest-regex-util "^20.0.3"
+    chalk "^2.0.1"
+    jest-get-type "^22.0.3"
+    pretty-format "^22.0.3"
 
-jest-message-util@^20.0.3:
-  version "20.0.3"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-message-util/-/jest-message-util-20.0.3.tgz#6aec2844306fcb0e6e74d5796c1006d96fdd831c"
+jest-message-util@^22.0.3:
+  version "22.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-message-util/-/jest-message-util-22.0.3.tgz#bf674b2762ef2dd53facf2136423fcca264976df"
   dependencies:
-    chalk "^1.1.3"
+    "@babel/code-frame" "^7.0.0-beta.35"
+    chalk "^2.0.1"
     micromatch "^2.3.11"
     slash "^1.0.0"
+    stack-utils "^1.0.1"
 
-jest-mock@^20.0.3:
-  version "20.0.3"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-mock/-/jest-mock-20.0.3.tgz#8bc070e90414aa155c11a8d64c869a0d5c71da59"
+jest-mock@^22.0.3:
+  version "22.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-mock/-/jest-mock-22.0.3.tgz#c875e47b5b729c6c020a2fab317b275c0cf88961"
 
-jest-regex-util@^20.0.3:
-  version "20.0.3"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-regex-util/-/jest-regex-util-20.0.3.tgz#85bbab5d133e44625b19faf8c6aa5122d085d762"
+jest-regex-util@^22.0.3:
+  version "22.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-regex-util/-/jest-regex-util-22.0.3.tgz#c5c10229de5ce2b27bf4347916d95b802ae9aa4d"
 
-jest-resolve-dependencies@^20.0.3:
-  version "20.0.3"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-resolve-dependencies/-/jest-resolve-dependencies-20.0.3.tgz#6e14a7b717af0f2cb3667c549de40af017b1723a"
+jest-resolve-dependencies@^22.0.3:
+  version "22.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-resolve-dependencies/-/jest-resolve-dependencies-22.0.3.tgz#202ddf370069702cd1865a1952fcc7e52c92720e"
   dependencies:
-    jest-regex-util "^20.0.3"
+    jest-regex-util "^22.0.3"
 
-jest-resolve@^20.0.4:
-  version "20.0.4"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-resolve/-/jest-resolve-20.0.4.tgz#9448b3e8b6bafc15479444c6499045b7ffe597a5"
+jest-resolve@^22.0.4:
+  version "22.0.4"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-resolve/-/jest-resolve-22.0.4.tgz#a6e47f55e9388c7341b5e9732aedc6fe30906121"
   dependencies:
     browser-resolve "^1.11.2"
-    is-builtin-module "^1.0.0"
-    resolve "^1.3.2"
+    chalk "^2.0.1"
 
-jest-runtime@^20.0.4:
-  version "20.0.4"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-runtime/-/jest-runtime-20.0.4.tgz#a2c802219c4203f754df1404e490186169d124d8"
+jest-runner@^22.0.4:
+  version "22.0.4"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-runner/-/jest-runner-22.0.4.tgz#3aa43a31b05ce8271539df580c2eb916023d3367"
+  dependencies:
+    jest-config "^22.0.4"
+    jest-docblock "^22.0.3"
+    jest-haste-map "^22.0.3"
+    jest-jasmine2 "^22.0.4"
+    jest-leak-detector "^22.0.3"
+    jest-message-util "^22.0.3"
+    jest-runtime "^22.0.4"
+    jest-util "^22.0.4"
+    jest-worker "^22.0.3"
+    throat "^4.0.0"
+
+jest-runtime@^22.0.4:
+  version "22.0.4"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-runtime/-/jest-runtime-22.0.4.tgz#8f69aa7b5fbb3acd35dc262cbf654e563f69b7b4"
   dependencies:
     babel-core "^6.0.0"
-    babel-jest "^20.0.3"
-    babel-plugin-istanbul "^4.0.0"
-    chalk "^1.1.3"
+    babel-jest "^22.0.4"
+    babel-plugin-istanbul "^4.1.5"
+    chalk "^2.0.1"
     convert-source-map "^1.4.0"
     graceful-fs "^4.1.11"
-    jest-config "^20.0.4"
-    jest-haste-map "^20.0.4"
-    jest-regex-util "^20.0.3"
-    jest-resolve "^20.0.4"
-    jest-util "^20.0.3"
+    jest-config "^22.0.4"
+    jest-haste-map "^22.0.3"
+    jest-regex-util "^22.0.3"
+    jest-resolve "^22.0.4"
+    jest-util "^22.0.4"
     json-stable-stringify "^1.0.1"
     micromatch "^2.3.11"
+    realpath-native "^1.0.0"
+    slash "^1.0.0"
     strip-bom "3.0.0"
-    yargs "^7.0.2"
+    write-file-atomic "^2.1.0"
+    yargs "^10.0.3"
 
-jest-snapshot@^20.0.3:
-  version "20.0.3"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-snapshot/-/jest-snapshot-20.0.3.tgz#5b847e1adb1a4d90852a7f9f125086e187c76566"
+jest-snapshot@^22.0.3:
+  version "22.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-snapshot/-/jest-snapshot-22.0.3.tgz#a949b393781d2fdb4773f6ea765dd67ad1da291e"
   dependencies:
-    chalk "^1.1.3"
-    jest-diff "^20.0.3"
-    jest-matcher-utils "^20.0.3"
-    jest-util "^20.0.3"
+    chalk "^2.0.1"
+    jest-diff "^22.0.3"
+    jest-matcher-utils "^22.0.3"
+    mkdirp "^0.5.1"
     natural-compare "^1.4.0"
-    pretty-format "^20.0.3"
+    pretty-format "^22.0.3"
 
-jest-util@^20.0.3:
-  version "20.0.3"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-util/-/jest-util-20.0.3.tgz#0c07f7d80d82f4e5a67c6f8b9c3fe7f65cfd32ad"
+jest-util@^22.0.4:
+  version "22.0.4"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-util/-/jest-util-22.0.4.tgz#d920a513e0645aaab030cee38e4fe7d5bed8bb6d"
   dependencies:
-    chalk "^1.1.3"
+    callsites "^2.0.0"
+    chalk "^2.0.1"
     graceful-fs "^4.1.11"
-    jest-message-util "^20.0.3"
-    jest-mock "^20.0.3"
-    jest-validate "^20.0.3"
-    leven "^2.1.0"
+    is-ci "^1.0.10"
+    jest-message-util "^22.0.3"
+    jest-validate "^22.0.3"
     mkdirp "^0.5.1"
 
-jest-validate@^20.0.3:
-  version "20.0.3"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-validate/-/jest-validate-20.0.3.tgz#d0cfd1de4f579f298484925c280f8f1d94ec3cab"
+jest-validate@^22.0.3:
+  version "22.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-validate/-/jest-validate-22.0.3.tgz#2850d949a36c48b1a40f7eebae1d8539126f7829"
   dependencies:
-    chalk "^1.1.3"
-    jest-matcher-utils "^20.0.3"
+    chalk "^2.0.1"
+    jest-get-type "^22.0.3"
     leven "^2.1.0"
-    pretty-format "^20.0.3"
+    pretty-format "^22.0.3"
 
-jest@^20.0.4:
-  version "20.0.4"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest/-/jest-20.0.4.tgz#3dd260c2989d6dad678b1e9cc4d91944f6d602ac"
+jest-worker@^22.0.3:
+  version "22.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest-worker/-/jest-worker-22.0.3.tgz#30433faca67814a8f80559f75ab2ceaa61332fd2"
   dependencies:
-    jest-cli "^20.0.4"
+    merge-stream "^1.0.1"
+
+jest@^22.0.4:
+  version "22.0.4"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jest/-/jest-22.0.4.tgz#d3cf560ece6b825b115dce80b9826ceb40f87961"
+  dependencies:
+    jest-cli "^22.0.4"
 
 js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
@@ -1859,28 +2101,33 @@ jschardet@^1.4.2:
   version "1.6.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jschardet/-/jschardet-1.6.0.tgz#c7d1a71edcff2839db2f9ec30fc5d5ebd3c1a678"
 
-jsdom@^9.12.0:
-  version "9.12.0"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jsdom/-/jsdom-9.12.0.tgz#e8c546fffcb06c00d4833ca84410fed7f8a097d4"
+jsdom@^11.5.1:
+  version "11.5.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/jsdom/-/jsdom-11.5.1.tgz#5df753b8d0bca20142ce21f4f6c039f99a992929"
   dependencies:
     abab "^1.0.3"
-    acorn "^4.0.4"
-    acorn-globals "^3.1.0"
+    acorn "^5.1.2"
+    acorn-globals "^4.0.0"
     array-equal "^1.0.0"
+    browser-process-hrtime "^0.1.2"
     content-type-parser "^1.0.1"
     cssom ">= 0.3.2 < 0.4.0"
     cssstyle ">= 0.2.37 < 0.3.0"
-    escodegen "^1.6.1"
+    domexception "^1.0.0"
+    escodegen "^1.9.0"
     html-encoding-sniffer "^1.0.1"
-    nwmatcher ">= 1.3.9 < 2.0.0"
-    parse5 "^1.5.1"
-    request "^2.79.0"
+    left-pad "^1.2.0"
+    nwmatcher "^1.4.3"
+    parse5 "^3.0.2"
+    pn "^1.0.0"
+    request "^2.83.0"
+    request-promise-native "^1.0.3"
     sax "^1.2.1"
     symbol-tree "^3.2.1"
-    tough-cookie "^2.3.2"
-    webidl-conversions "^4.0.0"
+    tough-cookie "^2.3.3"
+    webidl-conversions "^4.0.2"
     whatwg-encoding "^1.0.1"
-    whatwg-url "^4.3.0"
+    whatwg-url "^6.3.0"
     xml-name-validator "^2.0.1"
 
 jsesc@^1.3.0:
@@ -1956,6 +2203,10 @@ lcov-parse@0.0.10:
   version "0.0.10"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/lcov-parse/-/lcov-parse-0.0.10.tgz#1b0b8ff9ac9c7889250582b70b71315d9da6d9a3"
 
+left-pad@^1.2.0:
+  version "1.2.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/left-pad/-/left-pad-1.2.0.tgz#d30a73c6b8201d8f7d8e7956ba9616087a68e0ee"
+
 leven@^2.1.0:
   version "2.1.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/leven/-/leven-2.1.0.tgz#c2e7a9f772094dee9d34202ae8acce4687875580"
@@ -1993,7 +2244,11 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
-lodash@^4.11.1, lodash@^4.14.0, lodash@^4.17.2, lodash@^4.17.4, lodash@^4.3.0:
+lodash.sortby@^4.7.0:
+  version "4.7.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
+
+lodash@^4.11.1, lodash@^4.13.1, lodash@^4.14.0, lodash@^4.17.2, lodash@^4.17.4, lodash@^4.3.0:
   version "4.17.4"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -2067,6 +2322,18 @@ mem-fs@^1.1.0:
     vinyl "^1.1.0"
     vinyl-file "^2.0.0"
 
+mem@^1.1.0:
+  version "1.1.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/mem/-/mem-1.1.0.tgz#5edd52b485ca1d900fe64895505399a0dfa45f76"
+  dependencies:
+    mimic-fn "^1.0.0"
+
+merge-stream@^1.0.1:
+  version "1.0.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/merge-stream/-/merge-stream-1.0.1.tgz#4041202d508a342ba00174008df0c251b8c135e1"
+  dependencies:
+    readable-stream "^2.0.1"
+
 merge@^1.1.3:
   version "1.2.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/merge/-/merge-1.2.0.tgz#7531e39d4949c281a66b8c5a6e0265e8b05894da"
@@ -2121,7 +2388,7 @@ minimist@~0.0.1:
   version "0.0.10"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
 
-mkdirp@^0.5.0, mkdirp@^0.5.1:
+"mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1:
   version "0.5.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
@@ -2148,6 +2415,10 @@ mute-stream@0.0.7:
   version "0.0.7"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
 
+nan@^2.0.5, nan@^2.3.0:
+  version "2.8.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/nan/-/nan-2.8.0.tgz#ed715f3fe9de02b57a5e6252d90a96675e1f085a"
+
 native-promise-only@^0.8.1:
   version "0.8.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/native-promise-only/-/native-promise-only-0.8.1.tgz#20a318c30cb45f71fe7adfbf7b21c99c1472ef11"
@@ -2160,7 +2431,7 @@ node-int64@^0.4.0:
   version "0.4.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/node-int64/-/node-int64-0.4.0.tgz#87a9065cdb355d3182d8f94ce11188b825c68a3b"
 
-node-notifier@^5.0.2:
+node-notifier@^5.1.2:
   version "5.1.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/node-notifier/-/node-notifier-5.1.2.tgz#2fa9e12605fa10009d44549d6fcd8a63dde0e4ff"
   dependencies:
@@ -2168,6 +2439,29 @@ node-notifier@^5.0.2:
     semver "^5.3.0"
     shellwords "^0.1.0"
     which "^1.2.12"
+
+node-pre-gyp@^0.6.39:
+  version "0.6.39"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/node-pre-gyp/-/node-pre-gyp-0.6.39.tgz#c00e96860b23c0e1420ac7befc5044e1d78d8649"
+  dependencies:
+    detect-libc "^1.0.2"
+    hawk "3.1.3"
+    mkdirp "^0.5.1"
+    nopt "^4.0.1"
+    npmlog "^4.0.2"
+    rc "^1.1.7"
+    request "2.81.0"
+    rimraf "^2.6.1"
+    semver "^5.3.0"
+    tar "^2.2.1"
+    tar-pack "^3.4.0"
+
+nopt@^4.0.1:
+  version "4.0.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/nopt/-/nopt-4.0.1.tgz#d0d4685afd5415193c8c7505602d0d17cd64474d"
+  dependencies:
+    abbrev "1"
+    osenv "^0.1.4"
 
 normalize-package-data@^2.3.2:
   version "2.4.0"
@@ -2184,11 +2478,26 @@ normalize-path@^2.0.0, normalize-path@^2.0.1:
   dependencies:
     remove-trailing-separator "^1.0.1"
 
+npm-run-path@^2.0.0:
+  version "2.0.2"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/npm-run-path/-/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
+  dependencies:
+    path-key "^2.0.0"
+
+npmlog@^4.0.2:
+  version "4.1.2"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/npmlog/-/npmlog-4.1.2.tgz#08a7f2a8bf734604779a9efa4ad5cc717abb954b"
+  dependencies:
+    are-we-there-yet "~1.1.2"
+    console-control-strings "~1.1.0"
+    gauge "~2.7.3"
+    set-blocking "~2.0.0"
+
 number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-"nwmatcher@>= 1.3.9 < 2.0.0":
+nwmatcher@^1.4.3:
   version "1.4.3"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/nwmatcher/-/nwmatcher-1.4.3.tgz#64348e3b3d80f035b40ac11563d278f8b72db89c"
 
@@ -2204,6 +2513,17 @@ object-assign@^4.0.1, object-assign@^4.1.0:
   version "4.1.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
+object-keys@^1.0.8:
+  version "1.0.11"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/object-keys/-/object-keys-1.0.11.tgz#c54601778ad560f1142ce0e01bcca8b56d13426d"
+
+object.getownpropertydescriptors@^2.0.3:
+  version "2.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/object.getownpropertydescriptors/-/object.getownpropertydescriptors-2.0.3.tgz#8758c846f5b407adab0f236e0986f14b051caa16"
+  dependencies:
+    define-properties "^1.1.2"
+    es-abstract "^1.5.1"
+
 object.omit@^2.0.0:
   version "2.0.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/object.omit/-/object.omit-2.0.1.tgz#1a9c744829f39dbb858c76ca3579ae2a54ebd1fa"
@@ -2211,7 +2531,7 @@ object.omit@^2.0.0:
     for-own "^0.1.4"
     is-extendable "^0.1.1"
 
-once@^1.3.0, once@^1.4.0:
+once@^1.3.0, once@^1.3.3, once@^1.4.0:
   version "1.4.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/once/-/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
   dependencies:
@@ -2249,23 +2569,38 @@ os-homedir@^1.0.0:
   version "1.0.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/os-homedir/-/os-homedir-1.0.2.tgz#ffbc4988336e0e833de0c168c7ef152121aa7fb3"
 
-os-locale@^1.4.0:
-  version "1.4.0"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/os-locale/-/os-locale-1.4.0.tgz#20f9f17ae29ed345e8bde583b13d2009803c14d9"
+os-locale@^2.0.0:
+  version "2.1.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/os-locale/-/os-locale-2.1.0.tgz#42bc2900a6b5b8bd17376c8e882b65afccf24bf2"
   dependencies:
+    execa "^0.7.0"
     lcid "^1.0.0"
+    mem "^1.1.0"
 
 os-shim@^0.1.2:
   version "0.1.3"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/os-shim/-/os-shim-0.1.3.tgz#6b62c3791cf7909ea35ed46e17658bb417cb3917"
 
-os-tmpdir@^1.0.1, os-tmpdir@~1.0.1, os-tmpdir@~1.0.2:
+os-tmpdir@^1.0.0, os-tmpdir@^1.0.1, os-tmpdir@~1.0.1, os-tmpdir@~1.0.2:
   version "1.0.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
 
+osenv@^0.1.4:
+  version "0.1.4"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/osenv/-/osenv-0.1.4.tgz#42fe6d5953df06c8064be6f176c3d05aaaa34644"
+  dependencies:
+    os-homedir "^1.0.0"
+    os-tmpdir "^1.0.0"
+
+p-finally@^1.0.0:
+  version "1.0.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
+
 p-limit@^1.1.0:
-  version "1.1.0"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/p-limit/-/p-limit-1.1.0.tgz#b07ff2d9a5d88bec806035895a2bab66a27988bc"
+  version "1.2.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/p-limit/-/p-limit-1.2.0.tgz#0e92b6bedcb59f022c13d0f1949dc82d15909f1c"
+  dependencies:
+    p-try "^1.0.0"
 
 p-locate@^2.0.0:
   version "2.0.0"
@@ -2273,9 +2608,9 @@ p-locate@^2.0.0:
   dependencies:
     p-limit "^1.1.0"
 
-p-map@^1.1.1:
-  version "1.2.0"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/p-map/-/p-map-1.2.0.tgz#e4e94f311eabbc8633a1e79908165fca26241b6b"
+p-try@^1.0.0:
+  version "1.0.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/p-try/-/p-try-1.0.0.tgz#cbc79cdbaf8fd4228e13f621f2b1a237c1b207b3"
 
 pad-component@0.0.1:
   version "0.0.1"
@@ -2296,9 +2631,11 @@ parse-json@^2.2.0:
   dependencies:
     error-ex "^1.2.0"
 
-parse5@^1.5.1:
-  version "1.5.1"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/parse5/-/parse5-1.5.1.tgz#9b7f3b0de32be78dc2401b17573ccaf0f6f59d94"
+parse5@^3.0.2:
+  version "3.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/parse5/-/parse5-3.0.3.tgz#042f792ffdd36851551cf4e9e066b3874ab45b5c"
+  dependencies:
+    "@types/node" "*"
 
 path-exists@^2.0.0:
   version "2.1.0"
@@ -2317,6 +2654,10 @@ path-is-absolute@^1.0.0, path-is-absolute@^1.0.1:
 path-is-inside@^1.0.1, path-is-inside@^1.0.2:
   version "1.0.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/path-is-inside/-/path-is-inside-1.0.2.tgz#365417dede44430d1c11af61027facf074bdfc53"
+
+path-key@^2.0.0:
+  version "2.0.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
 
 path-parse@^1.0.5:
   version "1.0.5"
@@ -2341,6 +2682,10 @@ path-type@^2.0.0:
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/path-type/-/path-type-2.0.0.tgz#f012ccb8415b7096fc2daa1054c3d72389594c73"
   dependencies:
     pify "^2.0.0"
+
+performance-now@^0.2.0:
+  version "0.2.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/performance-now/-/performance-now-0.2.0.tgz#33ef30c5c77d4ea21c5a53869d91b56d8f2555e5"
 
 performance-now@^2.1.0:
   version "2.1.0"
@@ -2368,6 +2713,10 @@ pluralize@^7.0.0:
   version "7.0.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
 
+pn@^1.0.0:
+  version "1.1.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
+
 prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
@@ -2384,12 +2733,12 @@ pretty-bytes@^4.0.2:
   version "4.0.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/pretty-bytes/-/pretty-bytes-4.0.2.tgz#b2bf82e7350d65c6c33aa95aaa5a4f6327f61cd9"
 
-pretty-format@^20.0.3:
-  version "20.0.3"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/pretty-format/-/pretty-format-20.0.3.tgz#020e350a560a1fe1a98dc3beb6ccffb386de8b14"
+pretty-format@^22.0.3:
+  version "22.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/pretty-format/-/pretty-format-22.0.3.tgz#a2bfa59fc33ad24aa4429981bb52524b41ba5dd7"
   dependencies:
-    ansi-regex "^2.1.1"
-    ansi-styles "^3.0.0"
+    ansi-regex "^3.0.0"
+    ansi-styles "^3.2.0"
 
 private@^0.1.7:
   version "0.1.8"
@@ -2403,10 +2752,6 @@ progress@^2.0.0:
   version "2.0.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/progress/-/progress-2.0.0.tgz#8a1be366bf8fc23db2bd23f10c6fe920b4389d1f"
 
-prr@~0.0.0:
-  version "0.0.0"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/prr/-/prr-0.0.0.tgz#1a84b85908325501411853d0081ee3fa86e2926a"
-
 pseudomap@^1.0.2:
   version "1.0.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
@@ -2415,9 +2760,17 @@ punycode@^1.4.1:
   version "1.4.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
 
+punycode@^2.1.0:
+  version "2.1.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/punycode/-/punycode-2.1.0.tgz#5f863edc89b96db09074bad7947bf09056ca4e7d"
+
 qs@~6.3.0:
   version "6.3.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/qs/-/qs-6.3.2.tgz#e75bd5f6e268122a2a0e0bda630b2550c166502c"
+
+qs@~6.4.0:
+  version "6.4.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
 
 qs@~6.5.1:
   version "6.5.1"
@@ -2429,6 +2782,15 @@ randomatic@^1.1.3:
   dependencies:
     is-number "^3.0.0"
     kind-of "^4.0.0"
+
+rc@^1.1.7:
+  version "1.2.2"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/rc/-/rc-1.2.2.tgz#d8ce9cb57e8d64d9c7badd9876c7c34cbe3c7077"
+  dependencies:
+    deep-extend "~0.4.0"
+    ini "~1.3.0"
+    minimist "^1.2.0"
+    strip-json-comments "~2.0.1"
 
 read-chunk@^2.0.0:
   version "2.1.0"
@@ -2467,7 +2829,7 @@ read-pkg@^2.0.0:
     normalize-package-data "^2.3.2"
     path-type "^2.0.0"
 
-readable-stream@^2.0.2, readable-stream@^2.1.5, readable-stream@^2.2.2:
+readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.1.5, readable-stream@^2.2.2:
   version "2.3.3"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/readable-stream/-/readable-stream-2.3.3.tgz#368f2512d79f9d46fdfc71349ae7878bbc1eb95c"
   dependencies:
@@ -2479,6 +2841,12 @@ readable-stream@^2.0.2, readable-stream@^2.1.5, readable-stream@^2.2.2:
     string_decoder "~1.0.3"
     util-deprecate "~1.0.1"
 
+realpath-native@^1.0.0:
+  version "1.0.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/realpath-native/-/realpath-native-1.0.0.tgz#7885721a83b43bd5327609f0ddecb2482305fdf0"
+  dependencies:
+    util.promisify "^1.0.0"
+
 rechoir@^0.6.2:
   version "0.6.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/rechoir/-/rechoir-0.6.2.tgz#85204b54dba82d5742e28c96756ef43af50e3384"
@@ -2486,8 +2854,8 @@ rechoir@^0.6.2:
     resolve "^1.1.6"
 
 regenerator-runtime@^0.11.0:
-  version "0.11.0"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/regenerator-runtime/-/regenerator-runtime-0.11.0.tgz#7e54fe5b5ccd5d6624ea6255c3473be090b802e1"
+  version "0.11.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
 
 regex-cache@^0.4.2:
   version "0.4.4"
@@ -2521,6 +2889,20 @@ replace-ext@^1.0.0:
   version "1.0.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/replace-ext/-/replace-ext-1.0.0.tgz#de63128373fcbf7c3ccfa4de5a480c45a67958eb"
 
+request-promise-core@1.1.1:
+  version "1.1.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/request-promise-core/-/request-promise-core-1.1.1.tgz#3eee00b2c5aa83239cfb04c5700da36f81cd08b6"
+  dependencies:
+    lodash "^4.13.1"
+
+request-promise-native@^1.0.3:
+  version "1.0.5"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/request-promise-native/-/request-promise-native-1.0.5.tgz#5281770f68e0c9719e5163fd3fab482215f4fda5"
+  dependencies:
+    request-promise-core "1.1.1"
+    stealthy-require "^1.1.0"
+    tough-cookie ">=2.3.3"
+
 request@2.79.0:
   version "2.79.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/request/-/request-2.79.0.tgz#4dfe5bf6be8b8cdc37fcf93e04b65577722710de"
@@ -2546,7 +2928,34 @@ request@2.79.0:
     tunnel-agent "~0.4.1"
     uuid "^3.0.0"
 
-request@^2.79.0:
+request@2.81.0:
+  version "2.81.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/request/-/request-2.81.0.tgz#c6928946a0e06c5f8d6f8a9333469ffda46298a0"
+  dependencies:
+    aws-sign2 "~0.6.0"
+    aws4 "^1.2.1"
+    caseless "~0.12.0"
+    combined-stream "~1.0.5"
+    extend "~3.0.0"
+    forever-agent "~0.6.1"
+    form-data "~2.1.1"
+    har-validator "~4.2.1"
+    hawk "~3.1.3"
+    http-signature "~1.1.0"
+    is-typedarray "~1.0.0"
+    isstream "~0.1.2"
+    json-stringify-safe "~5.0.1"
+    mime-types "~2.1.7"
+    oauth-sign "~0.8.1"
+    performance-now "^0.2.0"
+    qs "~6.4.0"
+    safe-buffer "^5.0.1"
+    stringstream "~0.0.4"
+    tough-cookie "~2.3.0"
+    tunnel-agent "^0.6.0"
+    uuid "^3.0.0"
+
+request@^2.83.0:
   version "2.83.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/request/-/request-2.83.0.tgz#ca0b65da02ed62935887808e6f510381034e3356"
   dependencies:
@@ -2596,7 +3005,7 @@ resolve@1.1.7:
   version "1.1.7"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/resolve/-/resolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
 
-resolve@^1.1.6, resolve@^1.3.2:
+resolve@^1.1.6:
   version "1.5.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/resolve/-/resolve-1.5.0.tgz#1f09acce796c9a762579f31b2c1cc4c3cddf9f36"
   dependencies:
@@ -2622,7 +3031,7 @@ right-align@^0.1.1:
   dependencies:
     align-text "^0.1.1"
 
-rimraf@^2.2.0, rimraf@^2.2.8, rimraf@^2.4.4, rimraf@^2.6.1:
+rimraf@2, rimraf@^2.2.0, rimraf@^2.2.8, rimraf@^2.4.4, rimraf@^2.5.1, rimraf@^2.5.4, rimraf@^2.6.1:
   version "2.6.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
   dependencies:
@@ -2656,17 +3065,19 @@ samsam@1.x, samsam@^1.1.3:
   version "1.3.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/samsam/-/samsam-1.3.0.tgz#8d1d9350e25622da30de3e44ba692b5221ab7c50"
 
-sane@~1.6.0:
-  version "1.6.0"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/sane/-/sane-1.6.0.tgz#9610c452307a135d29c1fdfe2547034180c46775"
+sane@^2.0.0:
+  version "2.2.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/sane/-/sane-2.2.0.tgz#d6d2e2fcab00e3d283c93b912b7c3a20846f1d56"
   dependencies:
     anymatch "^1.3.0"
     exec-sh "^0.2.0"
-    fb-watchman "^1.8.0"
+    fb-watchman "^2.0.0"
     minimatch "^3.0.2"
     minimist "^1.1.1"
     walker "~1.0.5"
-    watch "~0.10.0"
+    watch "~0.18.0"
+  optionalDependencies:
+    fsevents "^1.1.1"
 
 sax@^1.2.1:
   version "1.2.4"
@@ -2680,7 +3091,7 @@ scoped-regex@^1.0.0:
   version "5.4.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
 
-set-blocking@^2.0.0:
+set-blocking@^2.0.0, set-blocking@~2.0.0:
   version "2.0.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
 
@@ -2706,7 +3117,7 @@ shellwords@^0.1.0:
   version "0.1.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/shellwords/-/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
 
-signal-exit@^3.0.2:
+signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
@@ -2751,6 +3162,12 @@ source-map-support@^0.4.15:
   dependencies:
     source-map "^0.5.6"
 
+source-map-support@^0.5.0:
+  version "0.5.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/source-map-support/-/source-map-support-0.5.0.tgz#2018a7ad2bdf8faf2691e5fddab26bed5a2bacab"
+  dependencies:
+    source-map "^0.6.0"
+
 source-map@^0.4.4:
   version "0.4.4"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/source-map/-/source-map-0.4.4.tgz#eba4f5da9c0dc999de68032d8b4f76173652036b"
@@ -2760,6 +3177,10 @@ source-map@^0.4.4:
 source-map@^0.5.3, source-map@^0.5.6, source-map@~0.5.1, source-map@~0.5.6:
   version "0.5.7"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
+
+source-map@^0.6.0:
+  version "0.6.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
 
 spawn-sync@^1.0.15:
   version "1.0.15"
@@ -2800,11 +3221,20 @@ sshpk@^1.7.0:
     jsbn "~0.1.0"
     tweetnacl "~0.14.0"
 
-string-length@^1.0.1:
+stack-utils@^1.0.1:
   version "1.0.1"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/string-length/-/string-length-1.0.1.tgz#56970fb1c38558e9e70b728bf3de269ac45adfac"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/stack-utils/-/stack-utils-1.0.1.tgz#d4f33ab54e8e38778b0ca5cfd3b3afb12db68620"
+
+stealthy-require@^1.1.0:
+  version "1.1.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
+
+string-length@^2.0.0:
+  version "2.0.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/string-length/-/string-length-2.0.0.tgz#d40dbb686a3ace960c1cffca562bf2c45f8363ed"
   dependencies:
-    strip-ansi "^3.0.0"
+    astral-regex "^1.0.0"
+    strip-ansi "^4.0.0"
 
 string-template@~0.2.1:
   version "0.2.1"
@@ -2864,6 +3294,10 @@ strip-bom@^2.0.0:
   dependencies:
     is-utf8 "^0.2.0"
 
+strip-eof@^1.0.0:
+  version "1.0.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/strip-eof/-/strip-eof-1.0.0.tgz#bb43ff5598a6eb05d89b59fcd129c983313606bf"
+
 strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
@@ -2906,6 +3340,27 @@ taketalk@^1.0.0:
     get-stdin "^4.0.1"
     minimist "^1.1.0"
 
+tar-pack@^3.4.0:
+  version "3.4.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/tar-pack/-/tar-pack-3.4.1.tgz#e1dbc03a9b9d3ba07e896ad027317eb679a10a1f"
+  dependencies:
+    debug "^2.2.0"
+    fstream "^1.0.10"
+    fstream-ignore "^1.0.5"
+    once "^1.3.3"
+    readable-stream "^2.1.4"
+    rimraf "^2.5.1"
+    tar "^2.2.1"
+    uid-number "^0.0.6"
+
+tar@^2.2.1:
+  version "2.2.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/tar/-/tar-2.2.1.tgz#8e4d2a256c0e2185c6b18ad694aec968b83cb1d1"
+  dependencies:
+    block-stream "*"
+    fstream "^1.0.2"
+    inherits "2"
+
 test-exclude@^4.1.1:
   version "4.1.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/test-exclude/-/test-exclude-4.1.1.tgz#4d84964b0966b0087ecc334a2ce002d3d9341e26"
@@ -2928,9 +3383,9 @@ text-table@^0.2.0, text-table@~0.2.0:
   version "2.1.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/textextensions/-/textextensions-2.1.0.tgz#1be0dc2a0dc244d44be8a09af6a85afb93c4dbc3"
 
-throat@^3.0.0:
-  version "3.2.0"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/throat/-/throat-3.2.0.tgz#50cb0670edbc40237b9e347d7e1f88e4620af836"
+throat@^4.0.0:
+  version "4.1.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/throat/-/throat-4.1.0.tgz#89037cbc92c56ab18926e6ba4cbb200e15672a6a"
 
 through2@^2.0.0, through2@^2.0.1:
   version "2.0.3"
@@ -2967,15 +3422,17 @@ to-fast-properties@^1.0.3:
   version "1.0.3"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/to-fast-properties/-/to-fast-properties-1.0.3.tgz#b83571fa4d8c25b82e231b06e3a3055de4ca1a47"
 
-tough-cookie@^2.3.2, tough-cookie@~2.3.0, tough-cookie@~2.3.3:
+tough-cookie@>=2.3.3, tough-cookie@^2.3.3, tough-cookie@~2.3.0, tough-cookie@~2.3.3:
   version "2.3.3"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/tough-cookie/-/tough-cookie-2.3.3.tgz#0b618a5565b6dea90bf3425d04d55edc475a7561"
   dependencies:
     punycode "^1.4.1"
 
-tr46@~0.0.3:
-  version "0.0.3"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
+tr46@^1.0.0:
+  version "1.0.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/tr46/-/tr46-1.0.1.tgz#a8b13fd6bfd2489519674ccde55ba3693b706d09"
+  dependencies:
+    punycode "^2.1.0"
 
 trim-right@^1.0.1:
   version "1.0.1"
@@ -3026,6 +3483,10 @@ uglify-to-browserify@~1.0.0:
   version "1.0.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz#6e0924d6bda6b5afe349e39a6d632850a0f882b7"
 
+uid-number@^0.0.6:
+  version "0.0.6"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/uid-number/-/uid-number-0.0.6.tgz#0ea10e8035e8eb5b8e4449f06da1c730663baa81"
+
 untildify@^2.0.0:
   version "2.1.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/untildify/-/untildify-2.1.0.tgz#17eb2807987f76952e9c0485fc311d06a826a2e0"
@@ -3055,6 +3516,13 @@ user-home@^2.0.0:
 util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
+
+util.promisify@^1.0.0:
+  version "1.0.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/util.promisify/-/util.promisify-1.0.0.tgz#440f7165a459c9a16dc145eb8e72f35687097030"
+  dependencies:
+    define-properties "^1.1.2"
+    object.getownpropertydescriptors "^2.0.3"
 
 uuid@^3.0.0, uuid@^3.1.0:
   version "3.1.0"
@@ -3111,15 +3579,21 @@ walker@~1.0.5:
   dependencies:
     makeerror "1.0.x"
 
-watch@~0.10.0:
-  version "0.10.0"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/watch/-/watch-0.10.0.tgz#77798b2da0f9910d595f1ace5b0c2258521f21dc"
+watch@~0.18.0:
+  version "0.18.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/watch/-/watch-0.18.0.tgz#28095476c6df7c90c963138990c0a5423eb4b986"
+  dependencies:
+    exec-sh "^0.2.0"
+    minimist "^1.2.0"
 
-webidl-conversions@^3.0.0:
-  version "3.0.1"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+weak@^1.0.1:
+  version "1.0.1"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/weak/-/weak-1.0.1.tgz#ab99aab30706959aa0200cb8cf545bb9cb33b99e"
+  dependencies:
+    bindings "^1.2.1"
+    nan "^2.0.5"
 
-webidl-conversions@^4.0.0:
+webidl-conversions@^4.0.1, webidl-conversions@^4.0.2:
   version "4.0.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
 
@@ -3129,22 +3603,29 @@ whatwg-encoding@^1.0.1:
   dependencies:
     iconv-lite "0.4.19"
 
-whatwg-url@^4.3.0:
-  version "4.8.0"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/whatwg-url/-/whatwg-url-4.8.0.tgz#d2981aa9148c1e00a41c5a6131166ab4683bbcc0"
+whatwg-url@^6.3.0:
+  version "6.4.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/whatwg-url/-/whatwg-url-6.4.0.tgz#08fdf2b9e872783a7a1f6216260a1d66cc722e08"
   dependencies:
-    tr46 "~0.0.3"
-    webidl-conversions "^3.0.0"
+    lodash.sortby "^4.7.0"
+    tr46 "^1.0.0"
+    webidl-conversions "^4.0.1"
 
-which-module@^1.0.0:
-  version "1.0.0"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/which-module/-/which-module-1.0.0.tgz#bba63ca861948994ff307736089e3b96026c2a4f"
+which-module@^2.0.0:
+  version "2.0.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/which-module/-/which-module-2.0.0.tgz#d9ef07dce77b9902b8a3a8fa4b31c3e3f7e6e87a"
 
 which@^1.2.12, which@^1.2.9:
   version "1.3.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/which/-/which-1.3.0.tgz#ff04bdfc010ee547d780bec38e1ac1c2777d253a"
   dependencies:
     isexe "^2.0.0"
+
+wide-align@^1.1.0:
+  version "1.1.2"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/wide-align/-/wide-align-1.1.2.tgz#571e0f1b0604636ebc0dfc21b0339bbe31341710"
+  dependencies:
+    string-width "^1.0.2"
 
 window-size@0.1.0:
   version "0.1.0"
@@ -3162,13 +3643,6 @@ wordwrap@~1.0.0:
   version "1.0.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
 
-worker-farm@^1.3.1:
-  version "1.5.1"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/worker-farm/-/worker-farm-1.5.1.tgz#8e9f4a7da4f3c595aa600903051b969390423fa1"
-  dependencies:
-    errno "^0.1.4"
-    xtend "^4.0.1"
-
 wrap-ansi@^2.0.0:
   version "2.1.0"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/wrap-ansi/-/wrap-ansi-2.1.0.tgz#d8fc3d284dd05794fe84973caecdd1cf824fdd85"
@@ -3180,6 +3654,14 @@ wrappy@1:
   version "1.0.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
 
+write-file-atomic@^2.1.0:
+  version "2.3.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/write-file-atomic/-/write-file-atomic-2.3.0.tgz#1ff61575c2e2a4e8e510d6fa4e243cce183999ab"
+  dependencies:
+    graceful-fs "^4.1.11"
+    imurmurhash "^0.1.4"
+    signal-exit "^3.0.2"
+
 write@^0.2.1:
   version "0.2.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/write/-/write-0.2.1.tgz#5fc03828e264cea3fe91455476f7a3c566cb0757"
@@ -3190,7 +3672,7 @@ xml-name-validator@^2.0.1:
   version "2.0.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/xml-name-validator/-/xml-name-validator-2.0.1.tgz#4d8b8f1eccd3419aa362061becef515e1e559635"
 
-xtend@^4.0.0, xtend@^4.0.1, xtend@~4.0.0, xtend@~4.0.1:
+xtend@^4.0.0, xtend@~4.0.0, xtend@~4.0.1:
   version "4.0.1"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/xtend/-/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
 
@@ -3202,29 +3684,28 @@ yallist@^2.1.2:
   version "2.1.2"
   resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
 
-yargs-parser@^5.0.0:
-  version "5.0.0"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/yargs-parser/-/yargs-parser-5.0.0.tgz#275ecf0d7ffe05c77e64e7c86e4cd94bf0e1228a"
+yargs-parser@^8.0.0:
+  version "8.1.0"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/yargs-parser/-/yargs-parser-8.1.0.tgz#f1376a33b6629a5d063782944da732631e966950"
   dependencies:
-    camelcase "^3.0.0"
+    camelcase "^4.1.0"
 
-yargs@^7.0.2:
-  version "7.1.0"
-  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/yargs/-/yargs-7.1.0.tgz#6ba318eb16961727f5d284f8ea003e8d6154d0c8"
+yargs@^10.0.3:
+  version "10.0.3"
+  resolved "http://lc-vwc10e-fw6c2.ent.wfb.bank.corp:8081/repository/npm-all/yargs/-/yargs-10.0.3.tgz#6542debd9080ad517ec5048fb454efe9e4d4aaae"
   dependencies:
-    camelcase "^3.0.0"
     cliui "^3.2.0"
     decamelize "^1.1.1"
+    find-up "^2.1.0"
     get-caller-file "^1.0.1"
-    os-locale "^1.4.0"
-    read-pkg-up "^1.0.1"
+    os-locale "^2.0.0"
     require-directory "^2.1.1"
     require-main-filename "^1.0.1"
     set-blocking "^2.0.0"
-    string-width "^1.0.2"
-    which-module "^1.0.0"
+    string-width "^2.0.0"
+    which-module "^2.0.0"
     y18n "^3.2.1"
-    yargs-parser "^5.0.0"
+    yargs-parser "^8.0.0"
 
 yargs@~3.10.0:
   version "3.10.0"
