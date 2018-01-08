@@ -20,7 +20,7 @@
     "yeoman-generator"
   ],
   "devDependencies": {
-    "coveralls": "^2.13.1",
+    "coveralls": "^3.0.0",
     "eslint": "^4.15.0",
     "eslint-config-xo-space": "^0.17.0",
     "jest": "^22.0.4",
