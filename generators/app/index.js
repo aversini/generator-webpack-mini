@@ -14,6 +14,11 @@ module.exports = class extends Generator {
     );
 
     this.fs.copy(
+      this.templatePath('.npmrc'),
+      this.destinationPath('.npmrc')
+    );
+
+    this.fs.copy(
       this.templatePath('package.json'),
       this.destinationPath('package.json')
     );
