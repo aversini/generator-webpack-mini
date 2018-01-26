@@ -91,7 +91,7 @@ module.exports = function (env) {
   }
 
   return {
-    entry: '<%= entry %>',
+    entry: './src/index.jsx',
     output: {
       filename: 'js/[name].bundle.[hash].js',
       path: path.resolve(__dirname, 'build')

@@ -15,20 +15,21 @@ It is fully functional but you will want to add your own code there.
 ```sh
 src
   ├── index.html
-  ├── <%= entry %>
+  ├── index.jsx
+  ├── testbed.jsx
   └── testbed.css
 ```
 
 ## Start the dev server
 
 ```sh
-$ yarn dev
+$ yarn start
 ```
 
 ## Build a production distribution
 
 ```sh
-$ yarn prod
+$ yarn build
 ```
 
 Generated files will be located under `build`.
