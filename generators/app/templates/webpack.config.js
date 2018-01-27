@@ -20,12 +20,7 @@ module.exports = function (env) {
       verbose: true,
       dry: false
     }),
-    new ExtractTextPlugin({
-      filename: getPath => {
-        return getPath('css/[name].[hash].css').replace('css/js', 'css');
-      },
-      allChunks: true
-    }),
+    new ExtractTextPlugin('build/style.[contenthash:8].css'),
     new HtmlWebpackPlugin({
       title:
         env === 'dev' ?
