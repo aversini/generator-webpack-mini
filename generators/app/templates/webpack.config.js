@@ -28,6 +28,14 @@ module.exports = function(env) {
      * Set to either 'production' or 'development'.
      */
     mode: ifProd() ? 'production' : 'development',
+    /*
+     * Controls how source maps are generated.
+     * eval-source-map: Yields the best quality for development.
+     * source-map: A full SourceMap is emitted as a separate file.
+     *             It adds a reference comment to the bundle so
+     *             development tools know where to find it.
+     */
+    devtool: ifProd()? 'source-map' : 'eval-source-map',
     output: {
       /*
        * The name (and sub-path) of each output bundle.
