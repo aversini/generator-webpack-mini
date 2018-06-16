@@ -13,6 +13,7 @@ describe('generator-webpack-mini:app (React)', () => {
     assert.file([
       '.babelrc',
       '.npmrc',
+      '.gitignore',
       'README.md',
       'package.json',
       'webpack.config.js',

@@ -35,7 +35,15 @@ module.exports = class extends Generator {
       this.destinationPath('.babelrc')
     );
 
-    this.fs.copy(this.templatePath('.npmrc'), this.destinationPath('.npmrc'));
+    this.fs.copy(
+      this.templatePath('.npmrc'),
+      this.destinationPath('.npmrc')
+    );
+
+    this.fs.copy(
+      this.templatePath('.gitignore'),
+      this.destinationPath('.gitignore')
+    );
 
     this.fs.copy(
       this.templatePath('package.json'),
