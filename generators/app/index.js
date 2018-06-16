@@ -1,5 +1,6 @@
 'use strict';
 const Generator = require('yeoman-generator');
+const chalk = require('chalk');
 
 module.exports = class extends Generator {
   writing() {
@@ -50,9 +51,10 @@ module.exports = class extends Generator {
   }
 
   end() {
+    const howToInstall = `Please run ${chalk.yellow.bold('npm install')} or ${chalk.yellow.bold('yarn')} to install dependencies.`;
     this.log();
     this.log('Mini webpack project with React is ready!');
-    this.log('Please run \'yarn\' or \'npm install\' to install dependencies,');
+    this.log(howToInstall);
     this.log(
       'And check the README.md file for more information (build procedures, etc.)'
     );
