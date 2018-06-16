@@ -16,6 +16,7 @@ describe('generator-webpack-mini:app (React)', () => {
       'README.md',
       'package.json',
       'webpack.config.js',
+      'src/favicon.ico',
       'src/index.html',
       'src/testbed.css',
       'src/testbed.jsx',

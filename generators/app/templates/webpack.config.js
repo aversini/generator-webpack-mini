@@ -61,6 +61,7 @@ module.exports = function(env) {
         title: ifNotProd()
           ? 'Mini Webpack Testbed [dev]'
           : 'Mini Webpack Testbed [prod]',
+        favicon: 'src/favicon.ico',
         template: path.join(__dirname, 'src', 'index.html')
       }),
       /*

@@ -66,6 +66,11 @@ module.exports = class extends Generator {
       this.templatePath('src', 'testbed.jsx'),
       this.destinationPath('src', 'testbed.jsx')
     );
+
+    this.fs.copy(
+      this.templatePath('src', 'favicon.ico'),
+      this.destinationPath('src', 'favicon.ico')
+    );
   }
 
   end() {
