@@ -2,8 +2,6 @@ const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const {
   removeEmpty,
   propIf,
@@ -18,56 +16,66 @@ const REGEX_URL_LOADER = /\.(eot|ttf|woff|svg|png)$/;
 module.exports = function(env) {
   const { ifNotProd, ifProd } = getIfUtils(env);
   return {
+    /*
+     * The point or points to enter the application.
+     * For SPA, only one entry point is needed.
+     */
     entry: {
-      app: './src/index.jsx',
-      vendor: ['react', 'react-dom']
+      app: './src/index.jsx'
     },
+    /*
+     * Tell webpack to use its built-in optimizations accordingly.
+     * Set to either 'production' or 'development'.
+     */
     mode: ifProd() ? 'production' : 'development',
     output: {
+      /*
+       * The name (and sub-path) of each output bundle.
+       */
       filename: 'js/[name].bundle.[hash].js',
+      /*
+       * The output directory as an absolute path.
+       */
       path: path.resolve(__dirname, 'build')
     },
     devServer: {
-      // disable security check for local development
+      /*
+       * Disable security host checking for local development
+       */
       disableHostCheck: ifNotProd()
     },
-    devtool: ifProd() ? 'eval-source-map' : 'source-map',
     optimization: {
-      splitChunks: {
-        cacheGroups: {
-          vendor: {
-            chunks: 'initial',
-            name: 'vendor',
-            test: 'vendor',
-            enforce: true
-          }
-        }
-      },
-      runtimeChunk: true,
-      minimizer: removeEmpty([
-        ifProd(new UglifyJsPlugin({
-          cache: true,
-          parallel: true,
-          sourceMap: true
-        })),
-        ifProd(new OptimizeCSSAssetsPlugin({}))
-      ])
+      /*
+       * Tells webpack to set process.env.NODE_ENV to
+       * a given string value. This allows react optimization
+       * at build time for production.
+       */
+      nodeEnv: ifProd() ? JSON.stringify('production') : JSON.stringify('development')
     },
     plugins: removeEmpty([
+      /*
+       * The HtmlWebpackPlugin plugin will generate an HTML5 file
+       * that includes all bundles in the body using script tags.
+       */
       new HtmlWebpackPlugin({
         title: ifNotProd()
           ? 'Mini Webpack Testbed [dev]'
           : 'Mini Webpack Testbed [prod]',
         template: path.join(__dirname, 'src', 'index.html')
       }),
-      ifProd(new MiniCssExtractPlugin('build/style.[contenthash:8].css')),
-      ifProd(
-        new webpack.DefinePlugin({
-          'process.env.NODE_ENV': JSON.stringify('production')
-        })
-      )
+      /*
+       * The MiniCssExtractPlugin plugin extracts CSS into separate files.
+       * Applying this extraction for production only, allowing hot-reloading
+       * in development mode with CSS in embedded in JavaScript.
+       */
+      ifProd(new MiniCssExtractPlugin('build/style.[contenthash:8].css'))
     ]),
     module: {
+      /*
+       * An array of Rules which are matched to requests when modules are created.
+       * These rules can modify how the module is created.
+       * They can apply loaders to the module, or modify the parser.
+       */
       rules: removeEmpty([
         {
           test: REGEX_URL_LOADER,
