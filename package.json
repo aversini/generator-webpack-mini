@@ -20,18 +20,18 @@
     "yeoman-generator"
   ],
   "devDependencies": {
-    "coveralls": "^3.0.0",
-    "eslint": "^4.15.0",
-    "eslint-config-xo-space": "^0.17.0",
-    "jest": "^22.0.4",
-    "jest-cli": "^22.0.4",
-    "yeoman-assert": "^3.0.0",
-    "yeoman-test": "^1.6.0"
+    "coveralls": "^3.0.1",
+    "eslint": "^4.19.1",
+    "eslint-config-xo-space": "^0.18.0",
+    "jest": "^23.1.0",
+    "jest-cli": "^23.1.0",
+    "yeoman-assert": "^3.1.1",
+    "yeoman-test": "^1.7.2"
   },
   "dependencies": {
-    "chalk": "^2.0.1",
-    "yeoman-generator": "^2.0.2",
-    "yosay": "^2.0.0"
+    "chalk": "^2.4.1",
+    "yeoman-generator": "^2.0.5",
+    "yosay": "^2.0.2"
   },
   "jest": {
     "coverageDirectory": "coverage",
