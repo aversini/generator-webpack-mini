@@ -14,6 +14,7 @@
     "dev": "npm run serve",
     "dist": "npm run build",
     "prod": "npm run build",
+    "stats": "npm run clean && npm run build:prod && webpack -p --env:prod --json > build/stats.json && webpack-bundle-analyzer build/stats.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
@@ -31,6 +32,7 @@
     "style-loader": "^0.21.0",
     "url-loader": "^1.0.1",
     "webpack": "^4.12.0",
+    "webpack-bundle-analyzer": "^2.13.1",
     "webpack-cli": "^3.0.7",
     "webpack-config-utils": "^2.3.0",
     "webpack-dev-server": "^3.1.4"
