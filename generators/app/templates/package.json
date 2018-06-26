@@ -1,7 +1,7 @@
 {
   "name": "webpack-react-mini-testbed",
   "description": "Minimal testbed for React with webpack",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "license": "UNLICENSED",
   "scripts": {
     "clean": "rimraf build",
