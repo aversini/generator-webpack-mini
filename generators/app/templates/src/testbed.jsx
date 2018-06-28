@@ -4,7 +4,7 @@ import './testbed.css';
 /**
  * Your imports here. For example:
  *
- * import 'some-lib/lib/Typography/Typography.css';
+ * import 'some-lib/lib/css/Typography/Typography.css';
  * import {Button, BadgeButton} from 'some-lib';
  *
  */
@@ -16,9 +16,9 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
+      <React.Fragment>
         {/* your code here */}
-      </div>
+      </React.Fragment>
     );
   }
 }
