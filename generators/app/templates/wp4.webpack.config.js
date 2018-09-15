@@ -1,13 +1,13 @@
-const path = require('path');
-const webpack = require('webpack');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const path = require("path");
+const webpack = require("webpack");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const {
   removeEmpty,
   propIf,
   propIfNot,
   getIfUtils
-} = require('webpack-config-utils');
+} = require("webpack-config-utils");
 
 const REGEX_STYLE_LOADER = /\.(css|scss)$/;
 const REGEX_BABEL_LOADER = /\.(js|jsx)$/;
@@ -18,16 +18,21 @@ module.exports = function(env) {
   return {
     /*
      * The point or points to enter the application.
-     * For SPA, only one entry point is needed.
+     * For SPA, only one entry point is needed, but for optimization
+     * purposes, it is sometimes preferable to extract big
+     * third-parties (react, d3, etc.) that will not change as much as
+     * the application code itself.
+     * See the corresponding "optimization.splitChunks" for "vendor".
      */
     entry: {
-      app: './src/index.jsx'
+      app: "./src/index.jsx",
+      vendor: ["react", "react-dom"]
     },
     /*
      * Tell webpack to use its built-in optimizations accordingly.
      * Set to either 'production' or 'development'.
      */
-    mode: ifProd() ? 'production' : 'development',
+    mode: ifProd() ? "production" : "development",
     /*
      * Controls how source maps are generated.
      * eval-source-map: Yields the best quality for development.
@@ -35,16 +40,16 @@ module.exports = function(env) {
      *             It adds a reference comment to the bundle so
      *             development tools know where to find it.
      */
-    devtool: ifProd()? 'source-map' : 'eval-source-map',
+    devtool: ifProd() ? "source-map" : "eval-source-map",
     output: {
       /*
        * The name (and sub-path) of each output bundle.
        */
-      filename: 'js/[name].bundle.[hash].js',
+      filename: "js/[name].bundle.[hash].js",
       /*
        * The output directory as an absolute path.
        */
-      path: path.resolve(__dirname, 'build')
+      path: path.resolve(__dirname, "build")
     },
     devServer: {
       /*
@@ -52,13 +57,30 @@ module.exports = function(env) {
        */
       disableHostCheck: ifNotProd()
     },
+    /*
+     * Create optimized chunk for vendor (array of big dependencies,
+     * defined in entry)
+     */
     optimization: {
+      splitChunks: {
+        cacheGroups: {
+          vendor: {
+            chunks: "initial",
+            name: "vendor",
+            test: "vendor",
+            enforce: true
+          }
+        }
+      },
+      runtimeChunk: true,
       /*
        * Tells webpack to set process.env.NODE_ENV to
        * a given string value. This allows react optimization
        * at build time for production.
        */
-      nodeEnv: ifProd() ? JSON.stringify('production') : JSON.stringify('development')
+      nodeEnv: ifProd()
+        ? JSON.stringify("production")
+        : JSON.stringify("development")
     },
     plugins: removeEmpty([
       /*
@@ -67,17 +89,17 @@ module.exports = function(env) {
        */
       new HtmlWebpackPlugin({
         title: ifNotProd()
-          ? 'Mini Webpack Testbed [dev]'
-          : 'Mini Webpack Testbed [prod]',
-        favicon: 'src/favicon.ico',
-        template: path.join(__dirname, 'src', 'index.html')
+          ? "Mini Webpack Testbed [dev]"
+          : "Mini Webpack Testbed [prod]",
+        favicon: "src/favicon.ico",
+        template: path.join(__dirname, "src", "index.html")
       }),
       /*
        * The MiniCssExtractPlugin plugin extracts CSS into separate files.
        * Applying this extraction for production only, allowing hot-reloading
        * in development mode with CSS in embedded in JavaScript.
        */
-      ifProd(new MiniCssExtractPlugin('build/style.[contenthash:8].css'))
+      ifProd(new MiniCssExtractPlugin("build/style.[contenthash:8].css"))
     ]),
     module: {
       /*
@@ -88,29 +110,29 @@ module.exports = function(env) {
       rules: removeEmpty([
         {
           test: REGEX_URL_LOADER,
-          use: 'url-loader',
+          use: "url-loader",
           exclude: /node_modules/
         },
         {
           test: REGEX_BABEL_LOADER,
-          use: 'babel-loader',
+          use: "babel-loader",
           exclude: /node_modules/
         },
         ifProd({
           test: REGEX_STYLE_LOADER,
-          use: [MiniCssExtractPlugin.loader, 'css-loader']
+          use: [MiniCssExtractPlugin.loader, "css-loader"]
         }),
         ifNotProd({
           test: REGEX_STYLE_LOADER,
           use: [
             {
-              loader: 'style-loader'
+              loader: "style-loader"
             },
             {
-              loader: 'css-loader',
+              loader: "css-loader",
               options: {
                 modules: true,
-                localIdentName: '[local]',
+                localIdentName: "[local]",
                 importLoaders: 1
               }
             }
