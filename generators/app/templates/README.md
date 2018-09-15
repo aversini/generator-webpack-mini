@@ -3,9 +3,8 @@
 ## Install dependencies
 
 ```sh
-$ yarn
+$ npm install
 ```
-**NOTE**: While this README only refers to [Yarn](https://yarnpkg.com/en/), npm can be used if it is the only node package manager available.
 
 ## Update source code
 
@@ -23,13 +22,19 @@ src
 ## Start the dev server
 
 ```sh
-$ yarn start
+$ npm run start
+```
+
+## Start a graphical bundle analyzer
+
+```sh
+$ npm run stats
 ```
 
 ## Build a production distribution
 
 ```sh
-$ yarn build
+$ npm run build
 ```
 
 Generated files will be located under `build`.
