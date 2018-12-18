@@ -1,3 +1,13 @@
+## [2.0.5](https://github.com/aversini/generator-webpack-mini/compare/v2.0.4...v2.0.5) (2018-12-18)
+
+
+### Bug Fixes
+
+* default page margin should be a padding ([606baf7](https://github.com/aversini/generator-webpack-mini/commit/606baf7))
+* remove custom npmrc that prevented a package-lock creation ([54f6d98](https://github.com/aversini/generator-webpack-mini/commit/54f6d98))
+
+
+
 ## [2.0.4](https://github.com/aversini/generator-webpack-mini/compare/v2.0.3...v2.0.4) (2018-10-31)
 
 
