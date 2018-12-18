@@ -20,6 +20,7 @@
     "yeoman-generator"
   ],
   "devDependencies": {
+    "conventional-changelog-cli": "^2.0.11",
     "coveralls": "^3.0.2",
     "eslint": "^5.6.0",
     "eslint-config-xo-space": "^0.20.0",
@@ -38,6 +39,7 @@
     "testEnvironment": "node"
   },
   "scripts": {
+    "changelog": "conventional-changelog -i CHANGELOG.md -s -p angular -c changelog.json",
     "test": "jest --coverage"
   },
   "eslintConfig": {
