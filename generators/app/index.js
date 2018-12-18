@@ -43,11 +43,6 @@ module.exports = class extends Generator {
       );
 
       this.fs.copy(
-        this.templatePath('.npmrc'),
-        this.destinationPath('.npmrc')
-      );
-
-      this.fs.copy(
         this.templatePath('.gitignore'),
         this.destinationPath('.gitignore')
       );

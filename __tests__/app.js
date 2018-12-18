@@ -13,7 +13,6 @@ describe('generator-webpack-mini:app (React)', () => {
       .then(function () {
         assert.noFile([
           '.babelrc',
-          '.npmrc',
           '.gitignore',
           'README.md',
           'package.json',
@@ -36,7 +35,6 @@ describe('generator-webpack-mini:app (React)', () => {
       .then(function () {
         assert.file([
           '.babelrc',
-          '.npmrc',
           '.gitignore',
           'README.md',
           'package.json',
@@ -59,7 +57,6 @@ describe('generator-webpack-mini:app (React)', () => {
       .then(function () {
         assert.file([
           '.babelrc',
-          '.npmrc',
           '.gitignore',
           'README.md',
           'package.json',
