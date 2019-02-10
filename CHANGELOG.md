@@ -1,3 +1,12 @@
+# [3.0.0](https://github.com/aversini/generator-webpack-mini/compare/v2.0.5...v3.0.0) (2019-02-10)
+
+
+### Features
+
+* due to security issue, dropping support for webpack 3 ([204ee74](https://github.com/aversini/generator-webpack-mini/commit/204ee74))
+
+
+
 ## [2.0.5](https://github.com/aversini/generator-webpack-mini/compare/v2.0.4...v2.0.5) (2018-12-18)
 
 
