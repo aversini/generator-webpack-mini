@@ -12,12 +12,6 @@ module.exports = class extends Generator {
     const prompts = [
       {
         type: 'confirm',
-        name: 'wp4',
-        message: 'Targeting Webpack v4+?',
-        default: true
-      },
-      {
-        type: 'confirm',
         name: 'continue',
         message: 'About to generate code in the current folder, continue?',
         default: true
@@ -47,25 +41,14 @@ module.exports = class extends Generator {
         this.destinationPath('.gitignore')
       );
 
-      if (this.props.wp4) {
-        this.fs.copy(
-          this.templatePath('wp4.webpack.config.js'),
-          this.destinationPath('webpack.config.js')
-        );
-        this.fs.copy(
-          this.templatePath('wp4.package.json'),
-          this.destinationPath('package.json')
-        );
-      } else {
-        this.fs.copy(
-          this.templatePath('wp3.webpack.config.js'),
-          this.destinationPath('webpack.config.js')
-        );
-        this.fs.copy(
-          this.templatePath('wp3.package.json'),
-          this.destinationPath('package.json')
-        );
-      }
+      this.fs.copy(
+        this.templatePath('webpack.config.js'),
+        this.destinationPath('webpack.config.js')
+      );
+      this.fs.copy(
+        this.templatePath('package.json'),
+        this.destinationPath('package.json')
+      );
 
       this.fs.copy(
         this.templatePath('src', 'index.html'),
