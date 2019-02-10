@@ -26,6 +26,7 @@
     "eslint-config-xo-space": "^0.20.0",
     "jest": "^23.6.0",
     "jest-cli": "^23.6.0",
+    "versini-release": "1.1.0",
     "yeoman-assert": "^3.1.1",
     "yeoman-test": "^1.9.1"
   },
@@ -39,7 +40,9 @@
     "testEnvironment": "node"
   },
   "scripts": {
+    "bump": "versini-release -t bump",
     "changelog": "conventional-changelog -i CHANGELOG.md -s -p angular -c changelog.json",
+    "release": "versini-release -t release",
     "test": "jest --coverage"
   },
   "eslintConfig": {
