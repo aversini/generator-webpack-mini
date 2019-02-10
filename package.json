@@ -43,7 +43,8 @@
     "bump": "versini-release -t bump",
     "changelog": "conventional-changelog -i CHANGELOG.md -s -p angular -c changelog.json",
     "release": "versini-release -t release",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "test:coverage": "npm run test"
   },
   "eslintConfig": {
     "extends": "xo-space",

@@ -53,7 +53,6 @@ describe('generator-webpack-mini:app (React)', () => {
     return helpers
       .run(path.join(__dirname, '../generators/app'))
       .withPrompts({continue: true}) // Mock the prompt answers
-      .withPrompts({wp4: true}) // Mock the prompt answers
       .then(function () {
         assert.file([
           '.babelrc',
