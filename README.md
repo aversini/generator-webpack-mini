@@ -25,7 +25,7 @@ yo webpack-mini
  * Feel free to [learn more about Yeoman](http://yeoman.io/).
  
 ## Test coverage
-Tested on all recent evergreen browsers and mobile devices with [the support of BrowserStack](https://www.browserstack.com).
+Tested on all recent evergreen browsers and mobile devices, as well as legacy browsers such as IE11, with the [support of BrowserStack](https://www.browserstack.com).
 
 ## License
 
