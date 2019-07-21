@@ -131,8 +131,9 @@ module.exports = function(env) {
             {
               loader: "css-loader",
               options: {
-                modules: true,
-                localIdentName: "[local]",
+                modules: {
+                  localIdentName: "[local]"
+                },
                 importLoaders: 1
               }
             }

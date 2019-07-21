@@ -18,23 +18,23 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@babel/core": "7.2.2",
-    "@babel/preset-env": "7.2.0",
+    "@babel/core": "7.5.5",
+    "@babel/preset-env": "7.5.5",
     "@babel/preset-react": "7.0.0",
-    "babel-loader": "8.0.4",
-    "css-loader": "1.0.0",
+    "babel-loader": "8.0.6",
+    "css-loader": "3.1.0",
     "html-webpack-plugin": "3.2.0",
     "inliner": "1.13.1",
-    "mini-css-extract-plugin": "0.5.0",
+    "mini-css-extract-plugin": "0.8.0",
     "npm-run-all": "4.1.5",
-    "react": "16.6.3",
-    "react-dom": "16.6.3",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
     "style-loader": "0.23.1",
-    "url-loader": "1.1.2",
-    "webpack": "4.27.1",
+    "url-loader": "2.1.0",
+    "webpack": "4.36.1",
     "webpack-bundle-analyzer": "3.3.2",
-    "webpack-cli": "3.1.2",
+    "webpack-cli": "3.3.6",
     "webpack-config-utils": "2.3.1",
-    "webpack-dev-server": "3.1.14"
+    "webpack-dev-server": "3.7.2"
   }
 }
