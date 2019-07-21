@@ -1,3 +1,7 @@
+## [3.0.1](https://github.com/aversini/generator-webpack-mini/compare/v3.0.0...v3.0.1) (2019-07-21)
+
+
+
 # [3.0.0](https://github.com/aversini/generator-webpack-mini/compare/v2.0.5...v3.0.0) (2019-02-10)
 
 
