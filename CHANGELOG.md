@@ -1,3 +1,12 @@
+## [3.0.2](https://github.com/aversini/generator-webpack-mini/compare/v3.0.1...v3.0.2) (2020-01-04)
+
+
+### Bug Fixes
+
+* using kleur instead of chalk ([94982a4](https://github.com/aversini/generator-webpack-mini/commit/94982a445cd2a7af7bbf20748e73661d395aed55))
+
+
+
 ## [3.0.1](https://github.com/aversini/generator-webpack-mini/compare/v3.0.0...v3.0.1) (2019-07-21)
 
 
