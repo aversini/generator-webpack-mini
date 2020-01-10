@@ -72,7 +72,6 @@ module.exports = function(env) {
           }
         }
       },
-      runtimeChunk: true,
       /*
        * Tells webpack to set process.env.NODE_ENV to
        * a given string value. This allows react optimization
