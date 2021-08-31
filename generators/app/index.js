@@ -12,11 +12,11 @@ module.exports = class extends Generator {
         type: "confirm",
         name: "continue",
         message: "About to generate code in the current folder, continue?",
-        default: true
-      }
+        default: true,
+      },
     ];
 
-    return this.prompt(prompts).then(props => {
+    return this.prompt(prompts).then((props) => {
       // To access props later use this.props.someAnswer;
       this.props = props;
     });
@@ -30,8 +30,8 @@ module.exports = class extends Generator {
       );
 
       this.fs.copy(
-        this.templatePath(".babelrc"),
-        this.destinationPath(".babelrc")
+        this.templatePath("babel.config.js"),
+        this.destinationPath("babel.config.js")
       );
 
       this.fs.copy(
