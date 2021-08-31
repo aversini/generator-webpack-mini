@@ -78,16 +78,12 @@ module.exports = class extends Generator {
   end() {
     if (this.props.continue) {
       const introduction = `Mini webpack project with React is ready!`;
-      const howToInstall = `Please run ${blue(
-        "npm install"
-      )} to install dependencies.`;
       const postInstall = `Check the ${blue(
         "README.md"
       )} file for more information (build procedures, etc.)`;
 
       this.log();
       this.log(yosay(introduction));
-      this.log(howToInstall);
       this.log(postInstall);
     } else {
       this.log("Bye then...");

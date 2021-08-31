@@ -38,6 +38,3 @@ $ npm run build
 ```
 
 Generated files will be located under `build`.
-
-- `build/index.html` loads js and css externally.
-- `build/index-inline.html` can easily be shared/hosted since it is embedding js and css.
