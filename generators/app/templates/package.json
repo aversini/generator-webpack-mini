@@ -8,7 +8,7 @@
     "build:prod": "webpack --optimization-minimize --env=prod --progress --profile",
     "build": "npm-run-all --serial clean build:prod",
     "start": "webpack-dev-server --env=dev",
-    "stats": "npm run clean && npm run build:prod && webpack -p --env=prod --json > build/stats.json && webpack-bundle-analyzer build/stats.json",
+    "stats": "npm run clean && npm run build:prod && webpack --optimization-minimize --env=prod --progress --profile --json > build/stats.json && webpack-bundle-analyzer build/stats.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
