@@ -20,6 +20,7 @@
     "yeoman-generator"
   ],
   "devDependencies": {
+    "bump-and-release": "^2.1.0",
     "conventional-changelog-cli": "^2.1.1",
     "coveralls": "^3.1.1",
     "eslint": "^7.32.0",
@@ -27,7 +28,6 @@
     "eslint-config-versini": "^1.0.1",
     "jest": "^27.1.0",
     "jest-cli": "^27.1.0",
-    "versini-release": "1.2.0",
     "yeoman-assert": "^3.1.1",
     "yeoman-test": "^6.2.0"
   },
@@ -41,9 +41,9 @@
     "testEnvironment": "node"
   },
   "scripts": {
-    "bump": "versini-release -t bump",
+    "bump": "bump-and-release -t bump",
     "changelog": "conventional-changelog -i CHANGELOG.md -s -p angular -c changelog.json",
-    "release": "versini-release -t release",
+    "release": "bump-and-release -t release",
     "test": "jest --coverage",
     "test:coverage": "npm run test"
   },
