@@ -1,6 +1,8 @@
 # generator-webpack-mini
+
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> A barebones webpack starter
+
+> A bare-bones webpack starter
 
 ## Installation
 
@@ -19,18 +21,18 @@ yo webpack-mini
 
 ## Getting To Know Yeoman
 
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
- 
+- Yeoman has a heart of gold.
+- Yeoman is a person with feelings and opinions, but is very easy to work with.
+- Yeoman can be too opinionated at times but is easily convinced not to be.
+- Feel free to [learn more about Yeoman](http://yeoman.io/).
+
 ## Test coverage
+
 Tested on all recent evergreen browsers and mobile devices, as well as legacy browsers such as IE11, with the [support of BrowserStack](https://www.browserstack.com).
 
 ## License
 
 MIT © [Arno V]()
-
 
 [npm-image]: https://badge.fury.io/js/generator-webpack-mini.svg
 [npm-url]: https://npmjs.org/package/generator-webpack-mini
