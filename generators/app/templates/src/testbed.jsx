@@ -1,26 +1,24 @@
-import React, { Component } from 'react';
-import './testbed.css';
+import "./testbed.css";
+
+import React, { useEffect } from "react";
 
 /**
  * Your imports here. For example:
  *
- * import 'some-lib/lib/css/Typography/Typography.css';
- * import {Button, BadgeButton} from 'some-lib';
+ * import "some-lib/dist/style.css";
+ * import { Button } from 'some-lib';
  *
  */
 
-class App extends Component {
-  componentDidMount() {
+export const App = () => {
+  useEffect(() => {
     // App is ready, show the page
-    document.body.classList.remove('tb-hidden');
-  }
-  render() {
-    return (
-      <React.Fragment>
-        {/* your code here */}
-      </React.Fragment>
-    );
-  }
-}
+    document.body.classList.remove("tb-hidden");
+  });
 
-export default App;
+  return (
+    <React.Fragment>
+      <pre> your code goes here </pre>
+    </React.Fragment>
+  );
+};

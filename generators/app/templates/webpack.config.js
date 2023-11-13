@@ -1,13 +1,7 @@
 const path = require("path");
-const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const {
-  removeEmpty,
-  propIf,
-  propIfNot,
-  getIfUtils,
-} = require("webpack-config-utils");
+const { removeEmpty, getIfUtils } = require("webpack-config-utils");
 
 const REGEX_STYLE_LOADER = /\.(css|scss)$/;
 const REGEX_BABEL_LOADER = /\.(js|jsx)$/;
@@ -49,6 +43,18 @@ module.exports = function (env) {
        * The output directory as an absolute path.
        */
       path: path.resolve(__dirname, "build"),
+    },
+    devServer: {
+      /**
+       * When using the HTML5 History API, the index.html page will likely
+       * have to be served in place of any 404 responses. Enable this to allow
+       * refresh on pages that are sub-routes.
+       */
+      historyApiFallback: true,
+      /**
+       * Enabling hot reload in dev mode.
+       */
+      hot: true,
     },
 
     plugins: removeEmpty([
